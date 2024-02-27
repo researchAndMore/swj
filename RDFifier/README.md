@@ -1,4 +1,4 @@
-# wiser-sp4-generic-converter
+# RDFifier
 
 Reflection-Based Approach to convert XML-based data into RDF.
 
