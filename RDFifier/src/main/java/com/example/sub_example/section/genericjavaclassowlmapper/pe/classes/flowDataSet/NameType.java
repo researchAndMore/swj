@@ -1,0 +1,215 @@
+
+package com.example.sub_example.section.genericjavaclassowlmapper.pe.classes.flowDataSet;
+
+import jakarta.xml.bind.annotation.*;
+
+import javax.xml.namespace.QName;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+
+/**
+ * <p>Java class for NameType complex type.
+ * 
+ * <p>The following schema fragment specifies the expected content contained within this class.
+ * 
+ * <pre>
+ * &lt;complexType name="NameType"&gt;
+ *   &lt;complexContent&gt;
+ *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
+ *       &lt;sequence&gt;
+ *         &lt;element name="baseName" type="{http://lca.jrc.it/ILCD/Common}StringMultiLang" maxOccurs="100"/&gt;
+ *         &lt;element name="treatmentStandardsRoutes" type="{http://lca.jrc.it/ILCD/Common}StringMultiLang" maxOccurs="100" minOccurs="0"/&gt;
+ *         &lt;element name="mixAndLocationTypes" type="{http://lca.jrc.it/ILCD/Common}StringMultiLang" maxOccurs="100" minOccurs="0"/&gt;
+ *         &lt;element name="flowProperties" type="{http://lca.jrc.it/ILCD/Common}StringMultiLang" maxOccurs="100" minOccurs="0"/&gt;
+ *         &lt;element ref="{http://lca.jrc.it/ILCD/Common}other" minOccurs="0"/&gt;
+ *       &lt;/sequence&gt;
+ *       &lt;anyAttribute processContents='lax' namespace='##other'/&gt;
+ *     &lt;/restriction&gt;
+ *   &lt;/complexContent&gt;
+ * &lt;/complexType&gt;
+ * </pre>
+ * 
+ * 
+ */
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name = "NameType", propOrder = {
+    "baseName",
+    "treatmentStandardsRoutes",
+    "mixAndLocationTypes",
+    "flowProperties",
+    "other"
+})
+public class NameType {
+
+    @XmlElement(required = true)
+    protected List<StringMultiLang> baseName;
+    protected List<StringMultiLang> treatmentStandardsRoutes;
+    protected List<StringMultiLang> mixAndLocationTypes;
+    protected List<StringMultiLang> flowProperties;
+    @XmlElement(namespace = "http://lca.jrc.it/ILCD/Common")
+    protected Other other;
+    @XmlAnyAttribute
+    private Map<QName, String> otherAttributes = new HashMap<QName, String>();
+
+    /**
+     * Gets the value of the baseName property.
+     * 
+     * <p>
+     * This accessor method returns a reference to the live list,
+     * not a snapshot. Therefore any modification you make to the
+     * returned list will be present inside the JAXB object.
+     * This is why there is not a <CODE>set</CODE> method for the baseName property.
+     * 
+     * <p>
+     * For example, to add a new item, do as follows:
+     * <pre>
+     *    getBaseName().add(newItem);
+     * </pre>
+     * 
+     * 
+     * <p>
+     * Objects of the following type(s) are allowed in the list
+     * {@link StringMultiLang }
+     * 
+     * 
+     */
+    public List<StringMultiLang> getBaseName() {
+        if (baseName == null) {
+            baseName = new ArrayList<StringMultiLang>();
+        }
+        return this.baseName;
+    }
+
+    /**
+     * Gets the value of the treatmentStandardsRoutes property.
+     * 
+     * <p>
+     * This accessor method returns a reference to the live list,
+     * not a snapshot. Therefore any modification you make to the
+     * returned list will be present inside the JAXB object.
+     * This is why there is not a <CODE>set</CODE> method for the treatmentStandardsRoutes property.
+     * 
+     * <p>
+     * For example, to add a new item, do as follows:
+     * <pre>
+     *    getTreatmentStandardsRoutes().add(newItem);
+     * </pre>
+     * 
+     * 
+     * <p>
+     * Objects of the following type(s) are allowed in the list
+     * {@link StringMultiLang }
+     * 
+     * 
+     */
+    public List<StringMultiLang> getTreatmentStandardsRoutes() {
+        if (treatmentStandardsRoutes == null) {
+            treatmentStandardsRoutes = new ArrayList<StringMultiLang>();
+        }
+        return this.treatmentStandardsRoutes;
+    }
+
+    /**
+     * Gets the value of the mixAndLocationTypes property.
+     * 
+     * <p>
+     * This accessor method returns a reference to the live list,
+     * not a snapshot. Therefore any modification you make to the
+     * returned list will be present inside the JAXB object.
+     * This is why there is not a <CODE>set</CODE> method for the mixAndLocationTypes property.
+     * 
+     * <p>
+     * For example, to add a new item, do as follows:
+     * <pre>
+     *    getMixAndLocationTypes().add(newItem);
+     * </pre>
+     * 
+     * 
+     * <p>
+     * Objects of the following type(s) are allowed in the list
+     * {@link StringMultiLang }
+     * 
+     * 
+     */
+    public List<StringMultiLang> getMixAndLocationTypes() {
+        if (mixAndLocationTypes == null) {
+            mixAndLocationTypes = new ArrayList<StringMultiLang>();
+        }
+        return this.mixAndLocationTypes;
+    }
+
+    /**
+     * Gets the value of the flowProperties property.
+     * 
+     * <p>
+     * This accessor method returns a reference to the live list,
+     * not a snapshot. Therefore any modification you make to the
+     * returned list will be present inside the JAXB object.
+     * This is why there is not a <CODE>set</CODE> method for the flowProperties property.
+     * 
+     * <p>
+     * For example, to add a new item, do as follows:
+     * <pre>
+     *    getFlowProperties().add(newItem);
+     * </pre>
+     * 
+     * 
+     * <p>
+     * Objects of the following type(s) are allowed in the list
+     * {@link StringMultiLang }
+     * 
+     * 
+     */
+    public List<StringMultiLang> getFlowProperties() {
+        if (flowProperties == null) {
+            flowProperties = new ArrayList<StringMultiLang>();
+        }
+        return this.flowProperties;
+    }
+
+    /**
+     * Gets the value of the other property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Other }
+     *     
+     */
+    public Other getOther() {
+        return other;
+    }
+
+    /**
+     * Sets the value of the other property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Other }
+     *     
+     */
+    public void setOther(Other value) {
+        this.other = value;
+    }
+
+    /**
+     * Gets a map that contains attributes that aren't bound to any typed property on this class.
+     * 
+     * <p>
+     * the map is keyed by the name of the attribute and 
+     * the value is the string value of the attribute.
+     * 
+     * the map returned by this method is live, and you can add new attribute
+     * by updating the map directly. Because of this design, there's no setter.
+     * 
+     * 
+     * @return
+     *     always non-null
+     */
+    public Map<QName, String> getOtherAttributes() {
+        return otherAttributes;
+    }
+
+}
