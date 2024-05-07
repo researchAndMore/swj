@@ -4,8 +4,8 @@ The folder contains the following:
 - the :open_file_folder:[Bridge Ontology](Ontologies/BridgeOntology)
 - the :open_file_folder:[WISER Ontology](Ontologies/WISEROntology)
 - a :open_file_folder: [SAMOD folder](SAMOD) containing all the artifacts used in the SAMOD methodology 
-- a ![Sample Data Generator programm](SampleDataGenerator/dataGenerator.py) to generate data sets without having to worry about licensing
-- a ![React App](GUI) to illustrate and test the behaviour of the semantic backbone with a GUI
-- a ![Benchmarking App](Benchmarking) to test performance of different features of the queries
-- a ![RDFifier program](RDFifier) to transform ILCD and EcoSpold02 data to RDF
+- a :page_facing_up:[Sample Data Generator programm](SampleDataGenerator/dataGenerator.py) to generate data sets without having to worry about licensing
+- a :open_file_folder:[React App](GUI) to illustrate and test the behaviour of the semantic backbone with a GUI
+- a :bar_chart:[Benchmarking App](Benchmarking) to test performance of different features of the queries
+- a :page_facing_up:[RDFifier program](RDFifier) to transform ILCD and EcoSpold02 data to RDF
 
