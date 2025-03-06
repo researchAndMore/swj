@@ -7,8 +7,8 @@ This repository contains a Bridge Ontology designed to work with multiple Life C
 ## Repository Structure
 
 - [**Ontology**](.): Contains the terminological component (schema) of our bridge ontology
-- [**RDFifier**](../RDFifier]) Tool for transforming Ecospold02, Ecospold01, and ILCD XML files into RDF format
-- [**SampleDataGenerator**](../SampleDataGenerator): Utility for generating sample ABox data for testing and demonstration purposes
+- [**RDFifier**](../../RDFifier]) Tool for transforming Ecospold02, Ecospold01, and ILCD XML files into RDF format
+- [**SampleDataGenerator**](../../SampleDataGenerator): Utility for generating sample ABox data for testing and demonstration purposes
 
 ## TBox
 
