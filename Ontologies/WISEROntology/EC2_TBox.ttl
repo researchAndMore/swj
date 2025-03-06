@@ -1,0 +1,602 @@
+@prefix : <https://purl.org/wiser/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://purl.org/wiser/> .
+
+<https://purl.org/wiser/> rdf:type owl:Ontology ;
+                           owl:imports <http://www.w3.org/2004/02/skos/core> ;
+                           rdfs:comment "WISER Search Ontology"@en ,
+                                        "WISER Search Ontology Integration"@en .
+
+<http://www.EcoInvent.org/EcoSpold02#meanValue>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#fileTimestamp>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#inheritanceDepth>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#defaultLanguage>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#variance>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#propertyId>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#language>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#specialActivityType>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#TFlowData>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#minorRelease>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#PedigreeMatrix>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#casNumber>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#completeness>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#geography>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#lognormal>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#isDefiningValue>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#compartment>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#classificationValue>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#id>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#technology>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#reviewerId>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#administrativeInformation>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#accessRestrictedTo>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#macroEconomicScenarioId>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#amount>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#furtherTechnologyCorrelation>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#TDataEntryBy>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#activityNameId>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#flowData>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#parentActivityId>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#synonym>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#reliability>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#modellingAndValidation>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#creationTimestamp>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#publishedSourceYear>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#reviewDate>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#productionVolumeComment>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#varianceWithPedigreeUncertainty>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#uncertainty>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#index>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#type>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#TCompartmentName>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#lastEditTimestamp>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#reviewedMinorRevision>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#geographicalCorrelation>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#value>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#impactMethodId>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#TElementaryExchange>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#minorRevision>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#mu>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#sourceYear>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#lang>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#publishedSourceId>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#reviewedMajorRevision>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#isCopyrightProtected>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#TSynonym>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#subcompartmentId>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#majorRevision>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#elementaryExchangeId>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#publishedSourceFirstAuthor>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#impactMethodName>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#TGeography>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#activityName>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#generalComment>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#productionVolumeAmount>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#TRepresentativeness>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#outputGroup>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#personEmail>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#TCompartment>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#TActivity>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#intermediateExchangeId>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#startDate>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#otherDetails>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#includedActivitiesStart>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#personName>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#texts>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#variableName>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#intermediateExchange>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#TProperty>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#impactCategoryName>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#TActivityDescription>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#subcompartment>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#isDataValidForEntirePeriod>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#inputGroup>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#TTechnology>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#extrapolations>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#classification>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#temporalCorrelation>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#TClassification>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#unitName>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#TDataGeneratorAndPublication>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#TIntermediateExchange>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#isActiveAuthor>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#reviewedMajorRelease>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#classificationSystem>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#sourceFirstAuthor>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#reviewerName>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#classificationId>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#impactCategoryId>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#activity>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#pedigreeMatrix>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#fileAttributes>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#TFileAttributes>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#timePeriod>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#pageNumbers>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#internalSchemaVersion>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#TTextAndImage>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#property>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#systemModelName>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#elementaryExchange>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#review>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#formula>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#dataPublishedIn>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#shortname>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#details>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#endDate>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#dataGeneratorAndPublication>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#majorRelease>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#systemModelId>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#personId>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#TReview>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#Text>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#contextName>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#includedActivitiesEnd>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#Lognormal>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#TTimePeriod>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#sourceId>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#dataEntryBy>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#macroEconomicScenario>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#TModellingAndValidation>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#representativeness>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#activityLinkId>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#TMacroEconomicScenario>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#comment>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> , <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#geographyId>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#unitId>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#mathematicalRelation>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#impactIndicatorId>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#TImpactIndicatorResult>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#reviewerEmail>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#reviewedMinorRelease>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#impactIndicator>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#TActivityDataset>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#isCalculatedAmount>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#name>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#TUncertainty>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#TAdministrativeInformation>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.EcoInvent.org/EcoSpold02#samplingProcedure>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#contextId>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+<http://www.EcoInvent.org/EcoSpold02#activityDescription>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://purl.org/wiser#bActivityName
+<https://purl.org/wiser#bActivityName> rdf:type owl:ObjectProperty ;
+                                       rdfs:subPropertyOf owl:topObjectProperty ;
+                                       rdfs:domain <https://purl.org/wiser#BActivity> ;
+                                       rdfs:range <https://purl.org/wiser#BActivityName> .
+
+
+###  https://purl.org/wiser#bClassification
+<https://purl.org/wiser#bClassification> rdf:type owl:ObjectProperty ;
+                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                         rdfs:domain <https://purl.org/wiser#BActivity> ;
+                                         rdfs:range <https://purl.org/wiser#BClassification> .
+
+
+
+###  https://purl.org/wiser#bGHGEmissionFactor
+<https://purl.org/wiser#bGHGEmissionFactor> rdf:type owl:ObjectProperty ;
+                                            rdfs:subPropertyOf owl:topObjectProperty ;
+                                            rdfs:domain <https://purl.org/wiser#BActivity> ;
+                                            rdfs:range <https://purl.org/wiser#BGHGEmissionFactor> .
+
+
+###  https://purl.org/wiser#bGeography
+<https://purl.org/wiser#bGeography> rdf:type owl:ObjectProperty ;
+                                    rdfs:domain <https://purl.org/wiser#BActivity> ;
+                                    rdfs:range <https://purl.org/wiser#BGeography> ;
+                                    owl:propertyChainAxiom ( <http://www.EcoInvent.org/EcoSpold01#metaInformation>
+                                                             <http://www.EcoInvent.org/EcoSpold01#processInformation>
+                                                             <http://www.EcoInvent.org/EcoSpold01#timePeriod>
+                                                           ) .
+
+
+###  https://purl.org/wiser#bLCIAResult
+<https://purl.org/wiser#bLCIAResult> rdf:type owl:ObjectProperty ;
+                                     rdfs:subPropertyOf owl:topObjectProperty ;
+                                     rdfs:domain <https://purl.org/wiser#BActivity> ;
+                                     rdfs:range <https://purl.org/wiser#BLCIAResult> .
+
+
+###  https://purl.org/wiser#bReferenceFunction
+<https://purl.org/wiser#bReferenceFunction> rdf:type owl:ObjectProperty ;
+                                            rdfs:domain <https://purl.org/wiser#BActivity> ;
+                                            rdfs:range <https://purl.org/wiser#BReferenceFunction> .
+
+
+
+
+###  https://purl.org/wiser#e1bActivityName
+<https://purl.org/wiser#e1bActivityName> rdf:type owl:ObjectProperty ;
+                                         rdfs:subPropertyOf <https://purl.org/wiser#bActivityName> ;
+                                         owl:propertyChainAxiom ( <http://www.EcoInvent.org/EcoSpold01#metaInformation>
+                                                                  <http://www.EcoInvent.org/EcoSpold01#processInformation>
+                                                                  <http://www.EcoInvent.org/EcoSpold01#referenceFunction>
+                                                                ) .
+
+
+###  https://purl.org/wiser#e1bClassification
+<https://purl.org/wiser#e1bClassification> rdf:type owl:ObjectProperty ;
+                                           rdfs:subPropertyOf <https://purl.org/wiser#bClassification> ;
+                                           owl:propertyChainAxiom ( <http://www.EcoInvent.org/EcoSpold01#metaInformation>
+                                                                    <http://www.EcoInvent.org/EcoSpold01#processInformation>
+                                                                    <http://www.EcoInvent.org/EcoSpold01#referenceFunction>
+                                                                  ) .
+
+
+###  https://purl.org/wiser#e1bGHGEmissionFactor
+<https://purl.org/wiser#e1bGHGEmissionFactor> rdf:type owl:ObjectProperty ;
+                                              rdfs:subPropertyOf <https://purl.org/wiser#bGHGEmissionFactor> .
+
+
+###  https://purl.org/wiser#e1bGeography
+<https://purl.org/wiser#e1bGeography> rdf:type owl:ObjectProperty ;
+                                      rdfs:subPropertyOf <https://purl.org/wiser#bGeography> ;
+                                      owl:propertyChainAxiom ( <http://www.EcoInvent.org/EcoSpold01#metaInformation>
+                                                               <http://www.EcoInvent.org/EcoSpold01#processInformation>
+                                                               <http://www.EcoInvent.org/EcoSpold01#geography>
+                                                             ) .
+
+
+###  https://purl.org/wiser#e1bLCIAResult
+<https://purl.org/wiser#e1bLCIAResult> rdf:type owl:ObjectProperty ;
+                                       rdfs:subPropertyOf <https://purl.org/wiser#bLCIAResult> .
+
+
+###  https://purl.org/wiser#e1bReferenceFunction
+<https://purl.org/wiser#e1bReferenceFunction> rdf:type owl:ObjectProperty ;
+                                              rdfs:subPropertyOf <https://purl.org/wiser#bReferenceFunction> ;
+                                              owl:propertyChainAxiom ( <http://www.EcoInvent.org/EcoSpold01#metaInformation>
+                                                                       <http://www.EcoInvent.org/EcoSpold01#processInformation>
+                                                                       <http://www.EcoInvent.org/EcoSpold01#referenceFunction>
+                                                                     ) .
+
+###  https://purl.org/wiser#e2bActivityName
+<https://purl.org/wiser#e2bActivityName> rdf:type owl:ObjectProperty ;
+                                         rdfs:subPropertyOf <https://purl.org/wiser#bActivityName> ;
+                                         owl:propertyChainAxiom ( ec2:activityDescription
+                                                                  ec2:activity
+                                                                  ec2:activityName
+                                                                ) .
+
+###  https://purl.org/wiser#e2bClassification
+<https://purl.org/wiser#e2bClassification> rdf:type owl:ObjectProperty ;
+                                           rdfs:subPropertyOf <https://purl.org/wiser#bClassification> ;
+                                           owl:propertyChainAxiom ( ec2:activityDescription
+                                                                    ec2:classification
+                                                                    ec2:classificationValue
+                                                                  ) .
+
+###  https://purl.org/wiser#e2bGeography
+<https://purl.org/wiser#e2bGeography> rdf:type owl:ObjectProperty ;
+                                      rdfs:subPropertyOf <https://purl.org/wiser#bGeography> ;
+                                      owl:propertyChainAxiom ( ec2:activityDescription
+                                                               ec2:geography
+                                                             ) .
+
+###  https://purl.org/wiser#e2bLCIAResult
+<https://purl.org/wiser#e2bLCIAResult> rdf:type owl:ObjectProperty ;
+                                       rdfs:subPropertyOf <https://purl.org/wiser#bLCIAResult> ;
+                                       owl:propertyChainAxiom ( ec2:flowData
+                                                                ec2:impactIndicator
+                                                              ) .
+
+###  https://purl.org/wiser#e2bUnit
+<https://purl.org/wiser#e2bUnit> rdf:type owl:ObjectProperty ;
+                                 rdfs:subPropertyOf <https://purl.org/wiser#bUnit> ;
+                                 owl:propertyChainAxiom ( ec2:flowData
+                                                          ec2:intermediateExchange
+                                                          ec2:unitName
+                                                        ) .
+
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

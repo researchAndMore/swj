@@ -1,0 +1,3041 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ilcd: <http://lca.jrc.it/ILCD#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wiser: <https://purl.org/wiser#> .
+@prefix ilcd_flow: <http://lca.jrc.it/ILCD/Flow#> .
+@prefix ilcd_common: <http://lca.jrc.it/ILCD/Common#> .
+@prefix ilcd_source: <http://lca.jrc.it/ILCD/Source#> .
+@prefix ilcd_contact: <http://lca.jrc.it/ILCD/Contact#> .
+@prefix ilcd_process: <http://lca.jrc.it/ILCD/Process#> .
+@prefix ilcd_unit_group: <http://lca.jrc.it/ILCD/UnitGroups#> .
+@prefix ilcd_lcia_methods: <http://lca.jrc.it/ILCD/LCIAMethod#> .
+@prefix ilcd_flow_property: <http://lca.jrc.it/ILCD/FlowProperty#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://lca.jrc.it/ILCD#administrativeInformation
+ilcd:administrativeInformation rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#approvalOfOverallCompliance
+ilcd:approvalOfOverallCompliance rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#category
+ilcd:category rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#characterisationFactors
+ilcd:characterisationFactors rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#classification
+ilcd:classification rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#classificationInformation
+ilcd:classificationInformation rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#clazz
+ilcd:clazz rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#commissionerAndGoal
+ilcd:commissionerAndGoal rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#completeness
+ilcd:completeness rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#completenessElementaryFlows
+ilcd:completenessElementaryFlows rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#completenessProductModel
+ilcd:completenessProductModel rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#compliance
+ilcd:compliance rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#complianceDeclarations
+ilcd:complianceDeclarations rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#contactInformation
+ilcd:contactInformation rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#dataDerivationTypeStatus
+ilcd:dataDerivationTypeStatus rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#dataEntryBy
+ilcd:dataEntryBy rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#dataGenerator
+ilcd:dataGenerator rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#dataQualityIndicator
+ilcd:dataQualityIndicator rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#dataQualityIndicators
+ilcd:dataQualityIndicators rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#dataSetInformation
+ilcd:dataSetInformation rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#dataSources
+ilcd:dataSources rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#dataSourcesTreatmentAndRepresentativeness
+ilcd:dataSourcesTreatmentAndRepresentativeness rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#deviatingRecommendation
+ilcd:deviatingRecommendation rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#documentationCompliance
+ilcd:documentationCompliance rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#elementaryFlowCategorization
+ilcd:elementaryFlowCategorization rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#exchange
+ilcd:exchange rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#exchangeDirection
+ilcd:exchangeDirection rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#exchanges
+ilcd:exchanges rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#factor
+ilcd:factor rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#flowInformation
+ilcd:flowInformation rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#flowProperties
+ilcd:flowProperties rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#flowPropertiesInformation
+ilcd:flowPropertiesInformation rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#flowProperty
+ilcd:flowProperty rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#geography
+ilcd:geography rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#impactLocation
+ilcd:impactLocation rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#impactModel
+ilcd:impactModel rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#interventionLocation
+ilcd:interventionLocation rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#lciMethod
+ilcd:lciMethod rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#lciMethodAndAllocation
+ilcd:lciMethodAndAllocation rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#lciMethodApproaches
+ilcd:lciMethodApproaches rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#lciMethodPrinciple
+ilcd:lciMethodPrinciple rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#lciaMethodInformation
+ilcd:lciaMethodInformation rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#lciaMethodNormalisationAndWeighting
+ilcd:lciaMethodNormalisationAndWeighting rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#lciaMethodPrinciple
+ilcd:lciaMethodPrinciple rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#level
+ilcd:level rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#licenseType
+ilcd:licenseType rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#locationOfOperationSupplyOrProduction
+ilcd:locationOfOperationSupplyOrProduction rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#mathematicalRelations
+ilcd:mathematicalRelations rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#method
+ilcd:method rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#methodologicalCompliance
+ilcd:methodologicalCompliance rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#modellingAndValidation
+ilcd:modellingAndValidation rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#name
+ilcd:name rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#nomenclatureCompliance
+ilcd:nomenclatureCompliance rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#other
+ilcd:other rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#processInformation
+ilcd:processInformation rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#publicationAndOwnership
+ilcd:publicationAndOwnership rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#publicationType
+ilcd:publicationType rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#qualityCompliance
+ilcd:qualityCompliance rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#quantitativeReference
+ilcd:quantitativeReference rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#recommendationBy
+ilcd:recommendationBy rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceQuantity
+ilcd:referenceQuantity rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToCommissioner
+ilcd:referenceToCommissioner rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToCompleteReviewReport
+ilcd:referenceToCompleteReviewReport rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToComplianceSystem
+ilcd:referenceToComplianceSystem rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToContact
+ilcd:referenceToContact rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToConvertedOriginalDataSetFrom
+ilcd:referenceToConvertedOriginalDataSetFrom rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToDataSetFormat
+ilcd:referenceToDataSetFormat rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToDataSetUseApproval
+ilcd:referenceToDataSetUseApproval rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToDataSource
+ilcd:referenceToDataSource rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToDigitalFile
+ilcd:referenceToDigitalFile rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToEntitiesWithExclusiveAccess
+ilcd:referenceToEntitiesWithExclusiveAccess rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToEntity
+ilcd:referenceToEntity rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToExternalDocumentation
+ilcd:referenceToExternalDocumentation rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToFlowDataSet
+ilcd:referenceToFlowDataSet rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToFlowPropertyDataSet
+ilcd:referenceToFlowPropertyDataSet rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToIncludedProcesses
+ilcd:referenceToIncludedProcesses rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToLCAMethodDetails
+ilcd:referenceToLCAMethodDetails rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToLogo
+ilcd:referenceToLogo rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToMethodologyFlowChart
+ilcd:referenceToMethodologyFlowChart rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToModelSource
+ilcd:referenceToModelSource rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToNameOfReviewerAndInstitution
+ilcd:referenceToNameOfReviewerAndInstitution rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToOwnershipOfDataSet
+ilcd:referenceToOwnershipOfDataSet rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToPersonOrEntityEnteringTheData
+ilcd:referenceToPersonOrEntityEnteringTheData rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToPersonOrEntityGeneratingTheDataSet
+ilcd:referenceToPersonOrEntityGeneratingTheDataSet rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToPrecedingDataSetVersion
+ilcd:referenceToPrecedingDataSetVersion rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToReferenceUnitGroup
+ilcd:referenceToReferenceUnitGroup rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToSupportedImpactAssessmentMethods
+ilcd:referenceToSupportedImpactAssessmentMethods rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToTechnicalSpecification
+ilcd:referenceToTechnicalSpecification rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToTechnologyFlowDiagrammOrPicture
+ilcd:referenceToTechnologyFlowDiagrammOrPicture rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToTechnologyPictogramme
+ilcd:referenceToTechnologyPictogramme rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToUnchangedRepublication
+ilcd:referenceToUnchangedRepublication rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#review
+ilcd:review rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#reviewCompliance
+ilcd:reviewCompliance rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#scope
+ilcd:scope rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#sourceInformation
+ilcd:sourceInformation rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#subLocationOfOperationSupplyOrProduction
+ilcd:subLocationOfOperationSupplyOrProduction rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#technology
+ilcd:technology rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#time
+ilcd:time rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#type
+ilcd:type rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#typeOfDataSet
+ilcd:typeOfDataSet rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#uncertaintyDistributionType
+ilcd:uncertaintyDistributionType rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#unit
+ilcd:unit rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#unitGroupInformation
+ilcd:unitGroupInformation rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#units
+ilcd:units rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#validation
+ilcd:validation rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#value
+ilcd:value rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD#workflowAndPublicationStatus
+ilcd:workflowAndPublicationStatus rdf:type owl:ObjectProperty .
+
+
+###  http://lca.jrc.it/ILCD/Common#category
+ilcd_common:category rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf ilcd:category .
+
+
+###  http://lca.jrc.it/ILCD/Common#classification
+ilcd_common:classification rdf:type owl:ObjectProperty ;
+                           rdfs:subPropertyOf ilcd:classification .
+
+
+###  http://lca.jrc.it/ILCD/Common#classificationInformation
+ilcd_common:classificationInformation rdf:type owl:ObjectProperty ;
+                                      rdfs:subPropertyOf ilcd:classificationInformation .
+
+
+###  http://lca.jrc.it/ILCD/Common#clazz
+ilcd_common:clazz rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf ilcd:clazz .
+
+
+###  http://lca.jrc.it/ILCD/Common#commissionerAndGoal
+ilcd_common:commissionerAndGoal rdf:type owl:ObjectProperty ;
+                                rdfs:subPropertyOf ilcd:commissionerAndGoal .
+
+
+###  http://lca.jrc.it/ILCD/Common#dataQualityIndicator
+ilcd_common:dataQualityIndicator rdf:type owl:ObjectProperty ;
+                                 rdfs:subPropertyOf ilcd:dataQualityIndicator .
+
+
+###  http://lca.jrc.it/ILCD/Common#dataQualityIndicators
+ilcd_common:dataQualityIndicators rdf:type owl:ObjectProperty ;
+                                  rdfs:subPropertyOf ilcd:dataQualityIndicators .
+
+
+###  http://lca.jrc.it/ILCD/Common#elementaryFlowCategorization
+ilcd_common:elementaryFlowCategorization rdf:type owl:ObjectProperty ;
+                                         rdfs:subPropertyOf ilcd:elementaryFlowCategorization .
+
+
+###  http://lca.jrc.it/ILCD/Common#impactLocation
+ilcd_common:impactLocation rdf:type owl:ObjectProperty ;
+                           rdfs:subPropertyOf ilcd:impactLocation .
+
+
+###  http://lca.jrc.it/ILCD/Common#interventionLocation
+ilcd_common:interventionLocation rdf:type owl:ObjectProperty ;
+                                 rdfs:subPropertyOf ilcd:interventionLocation .
+
+
+###  http://lca.jrc.it/ILCD/Common#referenceToCompleteReviewReport
+ilcd_common:referenceToCompleteReviewReport rdf:type owl:ObjectProperty ;
+                                            rdfs:subPropertyOf ilcd:referenceToCompleteReviewReport .
+
+
+###  http://lca.jrc.it/ILCD/Common#referenceToComplianceSystem
+ilcd_common:referenceToComplianceSystem rdf:type owl:ObjectProperty ;
+                                        rdfs:subPropertyOf ilcd:referenceToComplianceSystem .
+
+
+###  http://lca.jrc.it/ILCD/Common#referenceToLogo
+ilcd_common:referenceToLogo rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf ilcd:referenceToLogo .
+
+
+###  http://lca.jrc.it/ILCD/Common#referenceToTechnologyFlowDiagrammOrPicture
+ilcd_common:referenceToTechnologyFlowDiagrammOrPicture rdf:type owl:ObjectProperty ;
+                                                       rdfs:subPropertyOf ilcd:referenceToTechnologyFlowDiagrammOrPicture .
+
+
+###  http://lca.jrc.it/ILCD/Common#time
+ilcd_common:time rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf ilcd:time .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceQuantity
+<http://lca.jrc.it/ILCD/Common/referenceQuantity> rdf:type owl:ObjectProperty ;
+                                                  rdfs:subPropertyOf ilcd:referenceQuantity .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToCommissioner
+<http://lca.jrc.it/ILCD/Common/referenceToCommissioner> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf ilcd:referenceToCommissioner .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToCompleteReviewReport
+<http://lca.jrc.it/ILCD/Common/referenceToCompleteReviewReport> rdf:type owl:ObjectProperty ;
+                                                                rdfs:subPropertyOf ilcd:referenceToCompleteReviewReport .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToComplianceSystem
+<http://lca.jrc.it/ILCD/Common/referenceToComplianceSystem> rdf:type owl:ObjectProperty ;
+                                                            rdfs:subPropertyOf ilcd:referenceToComplianceSystem .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToContact
+<http://lca.jrc.it/ILCD/Common/referenceToContact> rdf:type owl:ObjectProperty ;
+                                                   rdfs:subPropertyOf ilcd:referenceToContact .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToConvertedOriginalDataSetFrom
+<http://lca.jrc.it/ILCD/Common/referenceToConvertedOriginalDataSetFrom> rdf:type owl:ObjectProperty ;
+                                                                        rdfs:subPropertyOf ilcd:referenceToConvertedOriginalDataSetFrom .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToDataSetFormat
+<http://lca.jrc.it/ILCD/Common/referenceToDataSetFormat> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf ilcd:referenceToDataSetFormat .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToDataSetUseApproval
+<http://lca.jrc.it/ILCD/Common/referenceToDataSetUseApproval> rdf:type owl:ObjectProperty ;
+                                                              rdfs:subPropertyOf ilcd:referenceToDataSetUseApproval .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToDataSource
+<http://lca.jrc.it/ILCD/Common/referenceToDataSource> rdf:type owl:ObjectProperty ;
+                                                      rdfs:subPropertyOf ilcd:referenceToDataSource .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToEntitiesWithExclusiveAccess
+<http://lca.jrc.it/ILCD/Common/referenceToEntitiesWithExclusiveAccess> rdf:type owl:ObjectProperty ;
+                                                                       rdfs:subPropertyOf ilcd:referenceToEntitiesWithExclusiveAccess .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToEntity
+<http://lca.jrc.it/ILCD/Common/referenceToEntity> rdf:type owl:ObjectProperty ;
+                                                  rdfs:subPropertyOf ilcd:referenceToEntity .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToExternalDocumentation
+<http://lca.jrc.it/ILCD/Common/referenceToExternalDocumentation> rdf:type owl:ObjectProperty ;
+                                                                 rdfs:subPropertyOf ilcd:referenceToExternalDocumentation .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToFlowDataSet
+<http://lca.jrc.it/ILCD/Common/referenceToFlowDataSet> rdf:type owl:ObjectProperty ;
+                                                       rdfs:subPropertyOf ilcd:referenceToFlowDataSet .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToFlowPropertyDataSet
+<http://lca.jrc.it/ILCD/Common/referenceToFlowPropertyDataSet> rdf:type owl:ObjectProperty ;
+                                                               rdfs:subPropertyOf ilcd:referenceToFlowPropertyDataSet .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToIncludedProcesses
+<http://lca.jrc.it/ILCD/Common/referenceToIncludedProcesses> rdf:type owl:ObjectProperty ;
+                                                             rdfs:subPropertyOf ilcd:referenceToIncludedProcesses .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToLCAMethodDetails
+<http://lca.jrc.it/ILCD/Common/referenceToLCAMethodDetails> rdf:type owl:ObjectProperty ;
+                                                            rdfs:subPropertyOf ilcd:referenceToLCAMethodDetails .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToLogo
+<http://lca.jrc.it/ILCD/Common/referenceToLogo> rdf:type owl:ObjectProperty ;
+                                                rdfs:subPropertyOf ilcd:referenceToLogo .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToMethodologyFlowChart
+<http://lca.jrc.it/ILCD/Common/referenceToMethodologyFlowChart> rdf:type owl:ObjectProperty ;
+                                                                rdfs:subPropertyOf ilcd:referenceToMethodologyFlowChart .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToModelSource
+<http://lca.jrc.it/ILCD/Common/referenceToModelSource> rdf:type owl:ObjectProperty ;
+                                                       rdfs:subPropertyOf ilcd:referenceToModelSource .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToNameOfReviewerAndInstitution
+<http://lca.jrc.it/ILCD/Common/referenceToNameOfReviewerAndInstitution> rdf:type owl:ObjectProperty ;
+                                                                        rdfs:subPropertyOf ilcd:referenceToNameOfReviewerAndInstitution .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToOwnershipOfDataSet
+<http://lca.jrc.it/ILCD/Common/referenceToOwnershipOfDataSet> rdf:type owl:ObjectProperty ;
+                                                              rdfs:subPropertyOf ilcd:referenceToOwnershipOfDataSet .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToPersonOrEntityEnteringTheData
+<http://lca.jrc.it/ILCD/Common/referenceToPersonOrEntityEnteringTheData> rdf:type owl:ObjectProperty ;
+                                                                         rdfs:subPropertyOf ilcd:referenceToPersonOrEntityEnteringTheData .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToPersonOrEntityGeneratingTheDataSet
+<http://lca.jrc.it/ILCD/Common/referenceToPersonOrEntityGeneratingTheDataSet> rdf:type owl:ObjectProperty ;
+                                                                              rdfs:subPropertyOf ilcd:referenceToPersonOrEntityGeneratingTheDataSet .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToPrecedingDataSetVersion
+<http://lca.jrc.it/ILCD/Common/referenceToPrecedingDataSetVersion> rdf:type owl:ObjectProperty ;
+                                                                   rdfs:subPropertyOf ilcd:referenceToPrecedingDataSetVersion .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToReferenceUnitGroup
+<http://lca.jrc.it/ILCD/Common/referenceToReferenceUnitGroup> rdf:type owl:ObjectProperty ;
+                                                              rdfs:subPropertyOf ilcd:referenceToReferenceUnitGroup .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToSupportedImpactAssessmentMethods
+<http://lca.jrc.it/ILCD/Common/referenceToSupportedImpactAssessmentMethods> rdf:type owl:ObjectProperty ;
+                                                                            rdfs:subPropertyOf ilcd:referenceToSupportedImpactAssessmentMethods .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToTechnicalSpecification
+<http://lca.jrc.it/ILCD/Common/referenceToTechnicalSpecification> rdf:type owl:ObjectProperty ;
+                                                                  rdfs:subPropertyOf ilcd:referenceToTechnicalSpecification .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToTechnologyFlowDiagrammOrPicture
+<http://lca.jrc.it/ILCD/Common/referenceToTechnologyFlowDiagrammOrPicture> rdf:type owl:ObjectProperty ;
+                                                                           rdfs:subPropertyOf ilcd:referenceToTechnologyFlowDiagrammOrPicture .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToTechnologyPictogramme
+<http://lca.jrc.it/ILCD/Common/referenceToTechnologyPictogramme> rdf:type owl:ObjectProperty ;
+                                                                 rdfs:subPropertyOf ilcd:referenceToTechnologyPictogramme .
+
+
+###  http://lca.jrc.it/ILCD/Common/referenceToUnchangedRepublication
+<http://lca.jrc.it/ILCD/Common/referenceToUnchangedRepublication> rdf:type owl:ObjectProperty ;
+                                                                  rdfs:subPropertyOf ilcd:referenceToUnchangedRepublication .
+
+
+###  http://lca.jrc.it/ILCD/Contact#administrativeInformation
+ilcd_contact:administrativeInformation rdf:type owl:ObjectProperty ;
+                                       rdfs:subPropertyOf ilcd:administrativeInformation .
+
+
+###  http://lca.jrc.it/ILCD/Contact#contactInformation
+ilcd_contact:contactInformation rdf:type owl:ObjectProperty ;
+                                rdfs:subPropertyOf ilcd:contactInformation .
+
+
+###  http://lca.jrc.it/ILCD/Contact#dataEntryBy
+ilcd_contact:dataEntryBy rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf ilcd:dataEntryBy .
+
+
+###  http://lca.jrc.it/ILCD/Contact#dataSetInformation
+ilcd_contact:dataSetInformation rdf:type owl:ObjectProperty ;
+                                rdfs:subPropertyOf ilcd:dataSetInformation .
+
+
+###  http://lca.jrc.it/ILCD/Contact#level
+ilcd_contact:level rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf ilcd:level .
+
+
+###  http://lca.jrc.it/ILCD/Contact#name
+ilcd_contact:name rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf ilcd:name .
+
+
+###  http://lca.jrc.it/ILCD/Contact#publicationAndOwnership
+ilcd_contact:publicationAndOwnership rdf:type owl:ObjectProperty ;
+                                     rdfs:subPropertyOf ilcd:publicationAndOwnership .
+
+
+###  http://lca.jrc.it/ILCD/Contact#value
+ilcd_contact:value rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf ilcd:value .
+
+
+###  http://lca.jrc.it/ILCD/Flow#administrativeInformation
+ilcd_flow:administrativeInformation rdf:type owl:ObjectProperty ;
+                                    rdfs:subPropertyOf ilcd:administrativeInformation .
+
+
+###  http://lca.jrc.it/ILCD/Flow#compliance
+ilcd_flow:compliance rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf ilcd:compliance .
+
+
+###  http://lca.jrc.it/ILCD/Flow#complianceDeclarations
+ilcd_flow:complianceDeclarations rdf:type owl:ObjectProperty ;
+                                 rdfs:subPropertyOf ilcd:complianceDeclarations .
+
+
+###  http://lca.jrc.it/ILCD/Flow#dataEntryBy
+ilcd_flow:dataEntryBy rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf ilcd:dataEntryBy .
+
+
+###  http://lca.jrc.it/ILCD/Flow#dataSetInformation
+ilcd_flow:dataSetInformation rdf:type owl:ObjectProperty ;
+                             rdfs:subPropertyOf ilcd:dataSetInformation .
+
+
+###  http://lca.jrc.it/ILCD/Flow#flowInformation
+ilcd_flow:flowInformation rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf ilcd:flowInformation .
+
+
+###  http://lca.jrc.it/ILCD/Flow#flowProperties
+ilcd_flow:flowProperties rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf ilcd:flowProperties .
+
+
+###  http://lca.jrc.it/ILCD/Flow#flowProperty
+ilcd_flow:flowProperty rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf ilcd:flowProperty .
+
+
+###  http://lca.jrc.it/ILCD/Flow#geography
+ilcd_flow:geography rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf ilcd:geography .
+
+
+###  http://lca.jrc.it/ILCD/Flow#lciMethod
+ilcd_flow:lciMethod rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf ilcd:lciMethod .
+
+
+###  http://lca.jrc.it/ILCD/Flow#level
+ilcd_flow:level rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf ilcd:level .
+
+
+###  http://lca.jrc.it/ILCD/Flow#modellingAndValidation
+ilcd_flow:modellingAndValidation rdf:type owl:ObjectProperty ;
+                                 rdfs:subPropertyOf ilcd:modellingAndValidation .
+
+
+###  http://lca.jrc.it/ILCD/Flow#name
+ilcd_flow:name rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf ilcd:name .
+
+
+###  http://lca.jrc.it/ILCD/Flow#other
+ilcd_flow:other rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf ilcd:other .
+
+
+###  http://lca.jrc.it/ILCD/Flow#publicationAndOwnership
+ilcd_flow:publicationAndOwnership rdf:type owl:ObjectProperty ;
+                                  rdfs:subPropertyOf ilcd:publicationAndOwnership .
+
+
+###  http://lca.jrc.it/ILCD/Flow#quantitativeReference
+ilcd_flow:quantitativeReference rdf:type owl:ObjectProperty ;
+                                rdfs:subPropertyOf ilcd:quantitativeReference .
+
+
+###  http://lca.jrc.it/ILCD/Flow#technology
+ilcd_flow:technology rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf ilcd:technology .
+
+
+###  http://lca.jrc.it/ILCD/Flow#typeOfDataSet
+ilcd_flow:typeOfDataSet rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf ilcd:typeOfDataSet .
+
+
+###  http://lca.jrc.it/ILCD/Flow#value
+ilcd_flow:value rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf ilcd:value .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#administrativeInformation
+ilcd_flow_property:administrativeInformation rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf ilcd:administrativeInformation .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#classification
+ilcd_flow_property:classification rdf:type owl:ObjectProperty ;
+                                  rdfs:subPropertyOf ilcd:classification .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#classificationInformation
+ilcd_flow_property:classificationInformation rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf ilcd:classificationInformation .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#clazz
+ilcd_flow_property:clazz rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf ilcd:clazz .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#compliance
+ilcd_flow_property:compliance rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf ilcd:compliance .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#complianceDeclarations
+ilcd_flow_property:complianceDeclarations rdf:type owl:ObjectProperty ;
+                                          rdfs:subPropertyOf ilcd:complianceDeclarations .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#dataEntryBy
+ilcd_flow_property:dataEntryBy rdf:type owl:ObjectProperty ;
+                               rdfs:subPropertyOf ilcd:dataEntryBy .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#dataSetInformation
+ilcd_flow_property:dataSetInformation rdf:type owl:ObjectProperty ;
+                                      rdfs:subPropertyOf ilcd:dataSetInformation .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#dataSourcesTreatmentAndRepresentativeness
+ilcd_flow_property:dataSourcesTreatmentAndRepresentativeness rdf:type owl:ObjectProperty ;
+                                                             rdfs:subPropertyOf ilcd:dataSourcesTreatmentAndRepresentativeness .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#flowPropertiesInformation
+ilcd_flow_property:flowPropertiesInformation rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf ilcd:flowPropertiesInformation .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#level
+ilcd_flow_property:level rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf ilcd:level .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#modellingAndValidation
+ilcd_flow_property:modellingAndValidation rdf:type owl:ObjectProperty ;
+                                          rdfs:subPropertyOf ilcd:modellingAndValidation .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#name
+ilcd_flow_property:name rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf ilcd:name .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#publicationAndOwnership
+ilcd_flow_property:publicationAndOwnership rdf:type owl:ObjectProperty ;
+                                           rdfs:subPropertyOf ilcd:publicationAndOwnership .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#quantitativeReference
+ilcd_flow_property:quantitativeReference rdf:type owl:ObjectProperty ;
+                                         rdfs:subPropertyOf ilcd:quantitativeReference .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#value
+ilcd_flow_property:value rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf ilcd:value .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#administrativeInformation
+ilcd_lcia_methods:administrativeInformation rdf:type owl:ObjectProperty ;
+                                            rdfs:subPropertyOf ilcd:administrativeInformation .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#characterisationFactors
+ilcd_lcia_methods:characterisationFactors rdf:type owl:ObjectProperty ;
+                                          rdfs:subPropertyOf ilcd:characterisationFactors .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#completeness
+ilcd_lcia_methods:completeness rdf:type owl:ObjectProperty ;
+                               rdfs:subPropertyOf ilcd:completeness .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#dataEntryBy
+ilcd_lcia_methods:dataEntryBy rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf ilcd:dataEntryBy .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#dataGenerator
+ilcd_lcia_methods:dataGenerator rdf:type owl:ObjectProperty ;
+                                rdfs:subPropertyOf ilcd:dataGenerator .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#dataSetInformation
+ilcd_lcia_methods:dataSetInformation rdf:type owl:ObjectProperty ;
+                                     rdfs:subPropertyOf ilcd:dataSetInformation .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#dataSources
+ilcd_lcia_methods:dataSources rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf ilcd:dataSources .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#factor
+ilcd_lcia_methods:factor rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf ilcd:factor .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#geography
+ilcd_lcia_methods:geography rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf ilcd:geography .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#impactModel
+ilcd_lcia_methods:impactModel rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf ilcd:impactModel .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#lciaMethodInformation
+ilcd_lcia_methods:lciaMethodInformation rdf:type owl:ObjectProperty ;
+                                        rdfs:subPropertyOf ilcd:lciaMethodInformation .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#lciaMethodNormalisationAndWeighting
+ilcd_lcia_methods:lciaMethodNormalisationAndWeighting rdf:type owl:ObjectProperty ;
+                                                      rdfs:subPropertyOf ilcd:lciaMethodNormalisationAndWeighting .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#method
+ilcd_lcia_methods:method rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf ilcd:method .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#modellingAndValidation
+ilcd_lcia_methods:modellingAndValidation rdf:type owl:ObjectProperty ;
+                                         rdfs:subPropertyOf ilcd:modellingAndValidation .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#name
+ilcd_lcia_methods:name rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf ilcd:name .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#publicationAndOwnership
+ilcd_lcia_methods:publicationAndOwnership rdf:type owl:ObjectProperty ;
+                                          rdfs:subPropertyOf ilcd:publicationAndOwnership .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#quantitativeReference
+ilcd_lcia_methods:quantitativeReference rdf:type owl:ObjectProperty ;
+                                        rdfs:subPropertyOf ilcd:quantitativeReference .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#recommendationBy
+ilcd_lcia_methods:recommendationBy rdf:type owl:ObjectProperty ;
+                                   rdfs:subPropertyOf ilcd:recommendationBy .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#review
+ilcd_lcia_methods:review rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf ilcd:review .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#scope
+ilcd_lcia_methods:scope rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf ilcd:scope .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#time
+ilcd_lcia_methods:time rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf ilcd:time .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#type
+ilcd_lcia_methods:type rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf ilcd:type .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#validation
+ilcd_lcia_methods:validation rdf:type owl:ObjectProperty ;
+                             rdfs:subPropertyOf ilcd:validation .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#value
+ilcd_lcia_methods:value rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf ilcd:value .
+
+
+###  http://lca.jrc.it/ILCD/Process#administrativeInformation
+ilcd_process:administrativeInformation rdf:type owl:ObjectProperty ;
+                                       rdfs:subPropertyOf ilcd:administrativeInformation .
+
+
+###  http://lca.jrc.it/ILCD/Process#completeness
+ilcd_process:completeness rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf ilcd:completeness .
+
+
+###  http://lca.jrc.it/ILCD/Process#completenessElementaryFlows
+ilcd_process:completenessElementaryFlows rdf:type owl:ObjectProperty ;
+                                         rdfs:subPropertyOf ilcd:completenessElementaryFlows .
+
+
+###  http://lca.jrc.it/ILCD/Process#compliance
+ilcd_process:compliance rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf ilcd:compliance .
+
+
+###  http://lca.jrc.it/ILCD/Process#complianceDeclarations
+ilcd_process:complianceDeclarations rdf:type owl:ObjectProperty ;
+                                    rdfs:subPropertyOf ilcd:complianceDeclarations .
+
+
+###  http://lca.jrc.it/ILCD/Process#dataEntryBy
+ilcd_process:dataEntryBy rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf ilcd:dataEntryBy .
+
+
+###  http://lca.jrc.it/ILCD/Process#dataGenerator
+ilcd_process:dataGenerator rdf:type owl:ObjectProperty ;
+                           rdfs:subPropertyOf ilcd:dataGenerator .
+
+
+###  http://lca.jrc.it/ILCD/Process#dataSetInformation
+ilcd_process:dataSetInformation rdf:type owl:ObjectProperty ;
+                                rdfs:subPropertyOf ilcd:dataSetInformation .
+
+
+###  http://lca.jrc.it/ILCD/Process#dataSourcesTreatmentAndRepresentativeness
+ilcd_process:dataSourcesTreatmentAndRepresentativeness rdf:type owl:ObjectProperty ;
+                                                       rdfs:subPropertyOf ilcd:dataSourcesTreatmentAndRepresentativeness .
+
+
+###  http://lca.jrc.it/ILCD/Process#exchange
+ilcd_process:exchange rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf ilcd:exchange .
+
+
+###  http://lca.jrc.it/ILCD/Process#exchanges
+ilcd_process:exchanges rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf ilcd:exchanges .
+
+
+###  http://lca.jrc.it/ILCD/Process#geography
+ilcd_process:geography rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf ilcd:geography .
+
+
+###  http://lca.jrc.it/ILCD/Process#lciMethodAndAllocation
+ilcd_process:lciMethodAndAllocation rdf:type owl:ObjectProperty ;
+                                    rdfs:subPropertyOf ilcd:lciMethodAndAllocation .
+
+
+###  http://lca.jrc.it/ILCD/Process#level
+ilcd_process:level rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf ilcd:level .
+
+
+###  http://lca.jrc.it/ILCD/Process#locationOfOperationSupplyOrProduction
+ilcd_process:locationOfOperationSupplyOrProduction rdf:type owl:ObjectProperty ;
+                                                   rdfs:subPropertyOf ilcd:locationOfOperationSupplyOrProduction .
+
+
+###  http://lca.jrc.it/ILCD/Process#mathematicalRelations
+ilcd_process:mathematicalRelations rdf:type owl:ObjectProperty ;
+                                   rdfs:subPropertyOf ilcd:mathematicalRelations .
+
+
+###  http://lca.jrc.it/ILCD/Process#method
+ilcd_process:method rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf ilcd:method .
+
+
+###  http://lca.jrc.it/ILCD/Process#modellingAndValidation
+ilcd_process:modellingAndValidation rdf:type owl:ObjectProperty ;
+                                    rdfs:subPropertyOf ilcd:modellingAndValidation .
+
+
+###  http://lca.jrc.it/ILCD/Process#name
+ilcd_process:name rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf ilcd:name .
+
+
+###  http://lca.jrc.it/ILCD/Process#other
+ilcd_process:other rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf ilcd:other .
+
+
+###  http://lca.jrc.it/ILCD/Process#processInformation
+ilcd_process:processInformation rdf:type owl:ObjectProperty ;
+                                rdfs:subPropertyOf ilcd:processInformation .
+
+
+###  http://lca.jrc.it/ILCD/Process#publicationAndOwnership
+ilcd_process:publicationAndOwnership rdf:type owl:ObjectProperty ;
+                                     rdfs:subPropertyOf ilcd:publicationAndOwnership .
+
+
+###  http://lca.jrc.it/ILCD/Process#quantitativeReference
+ilcd_process:quantitativeReference rdf:type owl:ObjectProperty ;
+                                   rdfs:subPropertyOf ilcd:quantitativeReference .
+
+
+###  http://lca.jrc.it/ILCD/Process#review
+ilcd_process:review rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf ilcd:review .
+
+
+###  http://lca.jrc.it/ILCD/Process#scope
+ilcd_process:scope rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf ilcd:scope .
+
+
+###  http://lca.jrc.it/ILCD/Process#subLocationOfOperationSupplyOrProduction
+ilcd_process:subLocationOfOperationSupplyOrProduction rdf:type owl:ObjectProperty ;
+                                                      rdfs:subPropertyOf ilcd:subLocationOfOperationSupplyOrProduction .
+
+
+###  http://lca.jrc.it/ILCD/Process#technology
+ilcd_process:technology rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf ilcd:technology .
+
+
+###  http://lca.jrc.it/ILCD/Process#type
+ilcd_process:type rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf ilcd:type .
+
+
+###  http://lca.jrc.it/ILCD/Process#validation
+ilcd_process:validation rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf ilcd:validation .
+
+
+###  http://lca.jrc.it/ILCD/Process#value
+ilcd_process:value rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf ilcd:value .
+
+
+###  http://lca.jrc.it/ILCD/Source#administrativeInformation
+ilcd_source:administrativeInformation rdf:type owl:ObjectProperty ;
+                                      rdfs:subPropertyOf ilcd:administrativeInformation .
+
+
+###  http://lca.jrc.it/ILCD/Source#dataEntryBy
+ilcd_source:dataEntryBy rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf ilcd:dataEntryBy .
+
+
+###  http://lca.jrc.it/ILCD/Source#dataSetInformation
+ilcd_source:dataSetInformation rdf:type owl:ObjectProperty ;
+                               rdfs:subPropertyOf ilcd:dataSetInformation .
+
+
+###  http://lca.jrc.it/ILCD/Source#level
+ilcd_source:level rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf ilcd:level .
+
+
+###  http://lca.jrc.it/ILCD/Source#name
+ilcd_source:name rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf ilcd:name .
+
+
+###  http://lca.jrc.it/ILCD/Source#publicationAndOwnership
+ilcd_source:publicationAndOwnership rdf:type owl:ObjectProperty ;
+                                    rdfs:subPropertyOf ilcd:publicationAndOwnership .
+
+
+###  http://lca.jrc.it/ILCD/Source#referenceToDigitalFile
+ilcd_source:referenceToDigitalFile rdf:type owl:ObjectProperty ;
+                                   rdfs:subPropertyOf ilcd:referenceToDigitalFile .
+
+
+###  http://lca.jrc.it/ILCD/Source#sourceInformation
+ilcd_source:sourceInformation rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf ilcd:sourceInformation .
+
+
+###  http://lca.jrc.it/ILCD/Source#type
+ilcd_source:type rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf ilcd:type .
+
+
+###  http://lca.jrc.it/ILCD/Source#value
+ilcd_source:value rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf ilcd:value .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#administrativeInformation
+<http://lca.jrc.it/ILCD/UnitGroup#administrativeInformation> rdf:type owl:ObjectProperty ;
+                                                             rdfs:subPropertyOf ilcd:administrativeInformation .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#compliance
+<http://lca.jrc.it/ILCD/UnitGroup#compliance> rdf:type owl:ObjectProperty ;
+                                              rdfs:subPropertyOf ilcd:compliance .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#complianceDeclarations
+<http://lca.jrc.it/ILCD/UnitGroup#complianceDeclarations> rdf:type owl:ObjectProperty ;
+                                                          rdfs:subPropertyOf ilcd:complianceDeclarations .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#dataEntryBy
+<http://lca.jrc.it/ILCD/UnitGroup#dataEntryBy> rdf:type owl:ObjectProperty ;
+                                               rdfs:subPropertyOf ilcd:dataEntryBy .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#dataSetInformation
+<http://lca.jrc.it/ILCD/UnitGroup#dataSetInformation> rdf:type owl:ObjectProperty ;
+                                                      rdfs:subPropertyOf ilcd:dataSetInformation .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#level
+<http://lca.jrc.it/ILCD/UnitGroup#level> rdf:type owl:ObjectProperty ;
+                                         rdfs:subPropertyOf ilcd:level .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#modellingAndValidation
+<http://lca.jrc.it/ILCD/UnitGroup#modellingAndValidation> rdf:type owl:ObjectProperty ;
+                                                          rdfs:subPropertyOf ilcd:modellingAndValidation .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#name
+<http://lca.jrc.it/ILCD/UnitGroup#name> rdf:type owl:ObjectProperty ;
+                                        rdfs:subPropertyOf ilcd:name .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#publicationAndOwnership
+<http://lca.jrc.it/ILCD/UnitGroup#publicationAndOwnership> rdf:type owl:ObjectProperty ;
+                                                           rdfs:subPropertyOf ilcd:publicationAndOwnership .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#quantitativeReference
+<http://lca.jrc.it/ILCD/UnitGroup#quantitativeReference> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf ilcd:quantitativeReference .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#unit
+<http://lca.jrc.it/ILCD/UnitGroup#unit> rdf:type owl:ObjectProperty ;
+                                        rdfs:subPropertyOf ilcd:unit .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#unitGroupInformation
+<http://lca.jrc.it/ILCD/UnitGroup#unitGroupInformation> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf ilcd:unitGroupInformation .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#units
+<http://lca.jrc.it/ILCD/UnitGroup#units> rdf:type owl:ObjectProperty ;
+                                         rdfs:subPropertyOf ilcd:units .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#value
+<http://lca.jrc.it/ILCD/UnitGroup#value> rdf:type owl:ObjectProperty ;
+                                         rdfs:subPropertyOf ilcd:value .
+
+
+###  https://purl.org/wiser#bActivityName
+wiser:bActivityName rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  https://purl.org/wiser#bClassification
+wiser:bClassification rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  https://purl.org/wiser#bExchange
+wiser:bExchange rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  https://purl.org/wiser#bExchangeProperty
+wiser:bExchangeProperty rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  https://purl.org/wiser#bFlow
+wiser:bFlow rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  https://purl.org/wiser#bGHGEmissionFactor
+wiser:bGHGEmissionFactor rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  https://purl.org/wiser#bGeography
+wiser:bGeography rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  https://purl.org/wiser#bGeographyParent
+wiser:bGeographyParent rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  https://purl.org/wiser#bLCIAResult
+wiser:bLCIAResult rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  https://purl.org/wiser#bReferenceFunction
+wiser:bReferenceFunction rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  https://purl.org/wiser#bTime
+wiser:bTime rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  https://purl.org/wiser#ilcdBClassification
+wiser:ilcdBClassification rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf wiser:bClassification ;
+                          owl:propertyChainAxiom ( ilcd:processInformation
+                                                   ilcd:dataSetInformation
+                                                   ilcd:classificationInformation
+                                                   ilcd:classification
+                                                 ) .
+
+
+###  https://purl.org/wiser#ilcdBFlow
+wiser:ilcdBFlow rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf wiser:bFlow ;
+                rdfs:range [ rdf:type owl:Class ;
+                             owl:complementOf wiser:ILCDBReferenceFunction
+                           ] ;
+                owl:propertyChainAxiom ( ilcd:exchanges
+                                         ilcd:exchange
+                                       ) .
+
+
+###  https://purl.org/wiser#ilcdbActivityName
+wiser:ilcdbActivityName rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf wiser:bActivityName ;
+                        owl:propertyChainAxiom ( ilcd:processInformation
+                                                 ilcd:dataSetInformation
+                                                 ilcd:name
+                                               ) .
+
+
+###  https://purl.org/wiser#ilcdbGeography
+wiser:ilcdbGeography rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf wiser:bGeography ;
+                     owl:propertyChainAxiom ( ilcd:processInformation
+                                              ilcd:geography
+                                              ilcd:locationOfOperationSupplyOrProduction
+                                            ) .
+
+
+###  https://purl.org/wiser#ilcdbReferenceFunction
+wiser:ilcdbReferenceFunction rdf:type owl:ObjectProperty ;
+                             rdfs:subPropertyOf wiser:bReferenceFunction .
+
+
+###  https://purl.org/wiser#ilcdbTime
+wiser:ilcdbTime rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf wiser:bTime ;
+                owl:propertyChainAxiom ( ilcd:processInformation
+                                         ilcd:time
+                                       ) .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://lca.jrc.it/ILCD#accessRestrictions
+ilcd:accessRestrictions rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#annualSupplyOrProductionVolume
+ilcd:annualSupplyOrProductionVolume rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#any
+ilcd:any rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#baseName
+ilcd:baseName rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf wiser:bName .
+
+
+###  http://lca.jrc.it/ILCD#casNumber
+ilcd:casNumber rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#catId
+ilcd:catId rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#categories
+ilcd:categories rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#centralContactPoint
+ilcd:centralContactPoint rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#classId
+ilcd:classId rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#classes
+ilcd:classes rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#consideredMechanisms
+ilcd:consideredMechanisms rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#contactAddress
+ilcd:contactAddress rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#contactDescriptionOrComment
+ilcd:contactDescriptionOrComment rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#copyright
+ilcd:copyright rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#dataCollectionPeriod
+ilcd:dataCollectionPeriod rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#dataCutOffAndCompletenessPrinciples
+ilcd:dataCutOffAndCompletenessPrinciples rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#dataSelectionAndCombinationPrinciples
+ilcd:dataSelectionAndCombinationPrinciples rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#dataSetInternalID
+ilcd:dataSetInternalID rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#dataSetValidUntil
+ilcd:dataSetValidUntil rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf wiser:bEndYear .
+
+
+###  http://lca.jrc.it/ILCD#dataSetVersion
+ilcd:dataSetVersion rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#dataSourceType
+ilcd:dataSourceType rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#dataTreatmentAndExtrapolationsPrinciples
+ilcd:dataTreatmentAndExtrapolationsPrinciples rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#dateOfLastRevision
+ilcd:dateOfLastRevision rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#descriptionOfRestrictions
+ilcd:descriptionOfRestrictions rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#deviationsFromCutOffAndCompletenessPrinciples
+ilcd:deviationsFromCutOffAndCompletenessPrinciples rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#deviationsFromLCIAMethodPrinciple
+ilcd:deviationsFromLCIAMethodPrinciple rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#deviationsFromLCIMethodApproaches
+ilcd:deviationsFromLCIMethodApproaches rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#deviationsFromLCIMethodPrinciple
+ilcd:deviationsFromLCIMethodPrinciple rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#deviationsFromModellingConstants
+ilcd:deviationsFromModellingConstants rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#deviationsFromSelectionAndCombinationPrinciples
+ilcd:deviationsFromSelectionAndCombinationPrinciples rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#deviationsFromTreatmentAndExtrapolationPrinciples
+ilcd:deviationsFromTreatmentAndExtrapolationPrinciples rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#duration
+ilcd:duration rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#email
+ilcd:email rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#flowProperties
+ilcd:flowProperties rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#functionalUnitFlowProperties
+ilcd:functionalUnitFlowProperties rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#generalComment
+ilcd:generalComment rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#geographicalRepresentativenessDescription
+ilcd:geographicalRepresentativenessDescription rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#impactCategory
+ilcd:impactCategory rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#impactIndicator
+ilcd:impactIndicator rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#intendedApplications
+ilcd:intendedApplications rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#inventoryItems
+ilcd:inventoryItems rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#level
+ilcd:level rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#location
+ilcd:location rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf wiser:bGeographyTerm .
+
+
+###  http://lca.jrc.it/ILCD#locationOfSupply
+ilcd:locationOfSupply rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#locations
+ilcd:locations rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#meanAmount
+ilcd:meanAmount rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#meanValue
+ilcd:meanValue rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#meaning
+ilcd:meaning rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#metaDataOnly
+ilcd:metaDataOnly rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#methodology
+ilcd:methodology rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#mixAndLocationTypes
+ilcd:mixAndLocationTypes rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#modelDescription
+ilcd:modelDescription rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#modelName
+ilcd:modelName rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#modellingConstants
+ilcd:modellingConstants rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#name
+ilcd:name rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#normalisation
+ilcd:normalisation rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#otherAttributes
+ilcd:otherAttributes rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#otherReviewDetails
+ilcd:otherReviewDetails rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#percentageSupplyOrProductionCovered
+ilcd:percentageSupplyOrProductionCovered rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#permanentDataSetURI
+ilcd:permanentDataSetURI rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#project
+ilcd:project rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToReferenceFlow
+ilcd:referenceToReferenceFlow rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToReferenceFlowProperty
+ilcd:referenceToReferenceFlowProperty rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceToReferenceUnit
+ilcd:referenceToReferenceUnit rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#referenceYear
+ilcd:referenceYear rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf wiser:bStartYear .
+
+
+###  http://lca.jrc.it/ILCD#relativeStandardDeviation95In
+ilcd:relativeStandardDeviation95In rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#resultingAmount
+ilcd:resultingAmount rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#reviewDetails
+ilcd:reviewDetails rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#samplingProcedure
+ilcd:samplingProcedure rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#shortDescription
+ilcd:shortDescription rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#shortName
+ilcd:shortName rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#sourceCitation
+ilcd:sourceCitation rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#sourceDescriptionOrComment
+ilcd:sourceDescriptionOrComment rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#sumFormula
+ilcd:sumFormula rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#synonyms
+ilcd:synonyms rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#technologicalApplicability
+ilcd:technologicalApplicability rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#technologyDescriptionAndIncludedProcesses
+ilcd:technologyDescriptionAndIncludedProcesses rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#telefax
+ilcd:telefax rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#telephone
+ilcd:telephone rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#timeRepresentativenessDescription
+ilcd:timeRepresentativenessDescription rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#timeStamp
+ilcd:timeStamp rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#treatmentStandardsRoutes
+ilcd:treatmentStandardsRoutes rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#uncertaintyAdjustments
+ilcd:uncertaintyAdjustments rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#uri
+ilcd:uri rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#useAdviceForDataSet
+ilcd:useAdviceForDataSet rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#uuid
+ilcd:uuid rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#value
+ilcd:value rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#version
+ilcd:version rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#weighting
+ilcd:weighting rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD#wwwAddress
+ilcd:wwwAddress rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD/Contact#classId
+ilcd_contact:classId rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf ilcd:classId .
+
+
+###  http://lca.jrc.it/ILCD/Contact#classes
+ilcd_contact:classes rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf ilcd:classes .
+
+
+###  http://lca.jrc.it/ILCD/Contact#level
+ilcd_contact:level rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD/Contact#name
+ilcd_contact:name rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD/Contact#value
+ilcd_contact:value rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD/Contact#version
+ilcd_contact:version rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf ilcd:version .
+
+
+###  http://lca.jrc.it/ILCD/Flow#any
+ilcd_flow:any rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf ilcd:any .
+
+
+###  http://lca.jrc.it/ILCD/Flow#baseName
+ilcd_flow:baseName rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf ilcd:baseName .
+
+
+###  http://lca.jrc.it/ILCD/Flow#casNumber
+ilcd_flow:casNumber rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf ilcd:casNumber .
+
+
+###  http://lca.jrc.it/ILCD/Flow#catId
+ilcd_flow:catId rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf ilcd:catId .
+
+
+###  http://lca.jrc.it/ILCD/Flow#categories
+ilcd_flow:categories rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf ilcd:categories .
+
+
+###  http://lca.jrc.it/ILCD/Flow#classId
+ilcd_flow:classId rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf ilcd:classId .
+
+
+###  http://lca.jrc.it/ILCD/Flow#classes
+ilcd_flow:classes rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf ilcd:classes .
+
+
+###  http://lca.jrc.it/ILCD/Flow#dataSetInternalID
+ilcd_flow:dataSetInternalID rdf:type owl:DatatypeProperty ;
+                            rdfs:subPropertyOf ilcd:dataSetInternalID .
+
+
+###  http://lca.jrc.it/ILCD/Flow#flowProperties
+ilcd_flow:flowProperties rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD/Flow#level
+ilcd_flow:level rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD/Flow#locationOfSupply
+ilcd_flow:locationOfSupply rdf:type owl:DatatypeProperty ;
+                           rdfs:subPropertyOf ilcd:locationOfSupply .
+
+
+###  http://lca.jrc.it/ILCD/Flow#locations
+ilcd_flow:locations rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf ilcd:locations .
+
+
+###  http://lca.jrc.it/ILCD/Flow#meanValue
+ilcd_flow:meanValue rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf ilcd:meanValue .
+
+
+###  http://lca.jrc.it/ILCD/Flow#mixAndLocationTypes
+ilcd_flow:mixAndLocationTypes rdf:type owl:DatatypeProperty ;
+                              rdfs:subPropertyOf ilcd:mixAndLocationTypes .
+
+
+###  http://lca.jrc.it/ILCD/Flow#name
+ilcd_flow:name rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD/Flow#referenceToReferenceFlowProperty
+ilcd_flow:referenceToReferenceFlowProperty rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf ilcd:referenceToReferenceFlowProperty .
+
+
+###  http://lca.jrc.it/ILCD/Flow#relativeStandardDeviation95In
+ilcd_flow:relativeStandardDeviation95In rdf:type owl:DatatypeProperty ;
+                                        rdfs:subPropertyOf ilcd:relativeStandardDeviation95In .
+
+
+###  http://lca.jrc.it/ILCD/Flow#sumFormula
+ilcd_flow:sumFormula rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf ilcd:sumFormula .
+
+
+###  http://lca.jrc.it/ILCD/Flow#technologicalApplicability
+ilcd_flow:technologicalApplicability rdf:type owl:DatatypeProperty ;
+                                     rdfs:subPropertyOf ilcd:technologicalApplicability .
+
+
+###  http://lca.jrc.it/ILCD/Flow#treatmentStandardsRoutes
+ilcd_flow:treatmentStandardsRoutes rdf:type owl:DatatypeProperty ;
+                                   rdfs:subPropertyOf ilcd:treatmentStandardsRoutes .
+
+
+###  http://lca.jrc.it/ILCD/Flow#value
+ilcd_flow:value rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD/Flow#version
+ilcd_flow:version rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf ilcd:version .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#classId
+ilcd_flow_property:classId rdf:type owl:DatatypeProperty ;
+                           rdfs:subPropertyOf ilcd:classId .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#classes
+ilcd_flow_property:classes rdf:type owl:DatatypeProperty ;
+                           rdfs:subPropertyOf ilcd:classes .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#level
+ilcd_flow_property:level rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#name
+ilcd_flow_property:name rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#value
+ilcd_flow_property:value rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#version
+ilcd_flow_property:version rdf:type owl:DatatypeProperty ;
+                           rdfs:subPropertyOf ilcd:version .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#value
+ilcd_lcia_methods:value rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#version
+ilcd_lcia_methods:version rdf:type owl:DatatypeProperty ;
+                          rdfs:subPropertyOf ilcd:version .
+
+
+###  http://lca.jrc.it/ILCD/Process#any
+ilcd_process:any rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf ilcd:any .
+
+
+###  http://lca.jrc.it/ILCD/Process#classId
+ilcd_process:classId rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf ilcd:classId .
+
+
+###  http://lca.jrc.it/ILCD/Process#classes
+ilcd_process:classes rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf ilcd:classes .
+
+
+###  http://lca.jrc.it/ILCD/Process#dataSetInternalID
+ilcd_process:dataSetInternalID rdf:type owl:DatatypeProperty ;
+                               rdfs:subPropertyOf ilcd:dataSetInternalID .
+
+
+###  http://lca.jrc.it/ILCD/Process#level
+ilcd_process:level rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD/Process#location
+ilcd_process:location rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf ilcd:location .
+
+
+###  http://lca.jrc.it/ILCD/Process#locations
+ilcd_process:locations rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf ilcd:locations .
+
+
+###  http://lca.jrc.it/ILCD/Process#metaDataOnly
+ilcd_process:metaDataOnly rdf:type owl:DatatypeProperty ;
+                          rdfs:subPropertyOf ilcd:metaDataOnly .
+
+
+###  http://lca.jrc.it/ILCD/Process#name
+ilcd_process:name rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD/Process#otherAttributes
+ilcd_process:otherAttributes rdf:type owl:DatatypeProperty ;
+                             rdfs:subPropertyOf ilcd:otherAttributes .
+
+
+###  http://lca.jrc.it/ILCD/Process#uri
+ilcd_process:uri rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf ilcd:uri .
+
+
+###  http://lca.jrc.it/ILCD/Process#value
+ilcd_process:value rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD/Process#version
+ilcd_process:version rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf ilcd:version .
+
+
+###  http://lca.jrc.it/ILCD/Source#classId
+ilcd_source:classId rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf ilcd:classId .
+
+
+###  http://lca.jrc.it/ILCD/Source#classes
+ilcd_source:classes rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf ilcd:classes .
+
+
+###  http://lca.jrc.it/ILCD/Source#level
+ilcd_source:level rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD/Source#name
+ilcd_source:name rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD/Source#uri
+ilcd_source:uri rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf ilcd:uri .
+
+
+###  http://lca.jrc.it/ILCD/Source#value
+ilcd_source:value rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD/Source#version
+ilcd_source:version rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf ilcd:version .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#classId
+<http://lca.jrc.it/ILCD/UnitGroup#classId> rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf ilcd:classId .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#classes
+<http://lca.jrc.it/ILCD/UnitGroup#classes> rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf ilcd:classes .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#dataSetInternalID
+<http://lca.jrc.it/ILCD/UnitGroup#dataSetInternalID> rdf:type owl:DatatypeProperty ;
+                                                     rdfs:subPropertyOf ilcd:dataSetInternalID .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#level
+<http://lca.jrc.it/ILCD/UnitGroup#level> rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#name
+<http://lca.jrc.it/ILCD/UnitGroup#name> rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#value
+<http://lca.jrc.it/ILCD/UnitGroup#value> rdf:type owl:DatatypeProperty .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#version
+<http://lca.jrc.it/ILCD/UnitGroup#version> rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf ilcd:version .
+
+
+###  https://purl.org/wiser#bAmount
+wiser:bAmount rdf:type owl:DatatypeProperty .
+
+
+###  https://purl.org/wiser#bCategory
+wiser:bCategory rdf:type owl:DatatypeProperty .
+
+
+###  https://purl.org/wiser#bDescription
+wiser:bDescription rdf:type owl:DatatypeProperty .
+
+
+###  https://purl.org/wiser#bEndYear
+wiser:bEndYear rdf:type owl:DatatypeProperty .
+
+
+###  https://purl.org/wiser#bGeographyTerm
+wiser:bGeographyTerm rdf:type owl:DatatypeProperty .
+
+
+###  https://purl.org/wiser#bGroup
+wiser:bGroup rdf:type owl:DatatypeProperty .
+
+
+###  https://purl.org/wiser#bIndicator
+wiser:bIndicator rdf:type owl:DatatypeProperty .
+
+
+###  https://purl.org/wiser#bMainClassification
+wiser:bMainClassification rdf:type owl:DatatypeProperty .
+
+
+###  https://purl.org/wiser#bMethod
+wiser:bMethod rdf:type owl:DatatypeProperty .
+
+
+###  https://purl.org/wiser#bName
+wiser:bName rdf:type owl:DatatypeProperty .
+
+
+###  https://purl.org/wiser#bStartYear
+wiser:bStartYear rdf:type owl:DatatypeProperty .
+
+
+###  https://purl.org/wiser#bSubClassification
+wiser:bSubClassification rdf:type owl:DatatypeProperty .
+
+
+###  https://purl.org/wiser#bTimestamp
+wiser:bTimestamp rdf:type owl:DatatypeProperty .
+
+
+###  https://purl.org/wiser#bUnit
+wiser:bUnit rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://lca.jrc.it/ILCD#AdministrativeInformationType
+ilcd:AdministrativeInformationType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#CategoryType
+ilcd:CategoryType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#CharacterisationFactorType
+ilcd:CharacterisationFactorType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#CharacterisationFactorsType
+ilcd:CharacterisationFactorsType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#ClassType
+ilcd:ClassType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#ClassificationInformationType
+ilcd:ClassificationInformationType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#ClassificationType
+ilcd:ClassificationType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#CommissionerAndGoalType
+ilcd:CommissionerAndGoalType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#CompletenessElementaryFlowsType
+ilcd:CompletenessElementaryFlowsType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#CompletenessType
+ilcd:CompletenessType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#ComplianceDeclarationsType
+ilcd:ComplianceDeclarationsType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#ComplianceType
+ilcd:ComplianceType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#ContactDataSetType
+ilcd:ContactDataSetType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#ContactInformationType
+ilcd:ContactInformationType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#DataEntryByType
+ilcd:DataEntryByType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#DataGeneratorType
+ilcd:DataGeneratorType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#DataQualityIndicatorType
+ilcd:DataQualityIndicatorType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#DataQualityIndicatorsType
+ilcd:DataQualityIndicatorsType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#DataSetInformationType
+ilcd:DataSetInformationType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#DataSourcesTreatmentAndRepresentativenessType
+ilcd:DataSourcesTreatmentAndRepresentativenessType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#DataSourcesType
+ilcd:DataSourcesType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#ExchangeType
+ilcd:ExchangeType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#ExchangesType
+ilcd:ExchangesType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#FlowCategorizationType
+ilcd:FlowCategorizationType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#FlowCategoryInformationType
+ilcd:FlowCategoryInformationType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#FlowDataSetType
+ilcd:FlowDataSetType rdf:type owl:Class ;
+                     rdfs:subClassOf wiser:BActivityFlow .
+
+
+###  http://lca.jrc.it/ILCD#FlowInformationType
+ilcd:FlowInformationType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#FlowPropertiesInformationType
+ilcd:FlowPropertiesInformationType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#FlowPropertiesType
+ilcd:FlowPropertiesType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#FlowPropertyDataSetType
+ilcd:FlowPropertyDataSetType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#FlowPropertyType
+ilcd:FlowPropertyType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#GeographyType
+ilcd:GeographyType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#GlobalReferenceType
+ilcd:GlobalReferenceType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#ImpactModelType
+ilcd:ImpactModelType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#LCIAMethodDataSetType
+ilcd:LCIAMethodDataSetType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#LCIAMethodInformationType
+ilcd:LCIAMethodInformationType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#LCIAMethodNormalisationAndWeightingType
+ilcd:LCIAMethodNormalisationAndWeightingType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#LCIMethodAndAllocationType
+ilcd:LCIMethodAndAllocationType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#LCIMethodType
+ilcd:LCIMethodType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#LocationOfOperationSupplyOrProductionType
+ilcd:LocationOfOperationSupplyOrProductionType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#LocationType
+ilcd:LocationType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#MathematicalRelationsType
+ilcd:MathematicalRelationsType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#Method
+ilcd:Method rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#ModellingAndValidationType
+ilcd:ModellingAndValidationType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#NameType
+ilcd:NameType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#Other
+ilcd:Other rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#ProcessDataSetType
+ilcd:ProcessDataSetType rdf:type owl:Class ;
+                        rdfs:subClassOf wiser:BActivity .
+
+
+###  http://lca.jrc.it/ILCD#ProcessInformationType
+ilcd:ProcessInformationType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#PublicationAndOwnershipType
+ilcd:PublicationAndOwnershipType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#QuantitativeReferenceType
+ilcd:QuantitativeReferenceType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#RecommendationType
+ilcd:RecommendationType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#ReferenceToDigitalFileType
+ilcd:ReferenceToDigitalFileType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#ReviewType
+ilcd:ReviewType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#Scope
+ilcd:Scope rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#SourceDataSetType
+ilcd:SourceDataSetType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#SourceInformationType
+ilcd:SourceInformationType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#SubLocationOfOperationSupplyOrProductionType
+ilcd:SubLocationOfOperationSupplyOrProductionType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#TechnologyType
+ilcd:TechnologyType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#TimeType
+ilcd:TimeType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#UnitGroupDataSetType
+ilcd:UnitGroupDataSetType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#UnitGroupInformationType
+ilcd:UnitGroupInformationType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#UnitType
+ilcd:UnitType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#UnitsType
+ilcd:UnitsType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD#ValidationType
+ilcd:ValidationType rdf:type owl:Class .
+
+
+###  http://lca.jrc.it/ILCD/Common#CategoryType
+ilcd_common:CategoryType rdf:type owl:Class ;
+                         rdfs:subClassOf ilcd:CategoryType .
+
+
+###  http://lca.jrc.it/ILCD/Common#ClassType
+ilcd_common:ClassType rdf:type owl:Class ;
+                      rdfs:subClassOf ilcd:ClassType .
+
+
+###  http://lca.jrc.it/ILCD/Common#ClassificationInformationType
+ilcd_common:ClassificationInformationType rdf:type owl:Class ;
+                                          rdfs:subClassOf ilcd:ClassificationInformationType .
+
+
+###  http://lca.jrc.it/ILCD/Common#ClassificationType
+ilcd_common:ClassificationType rdf:type owl:Class ;
+                               rdfs:subClassOf ilcd:ClassificationType .
+
+
+###  http://lca.jrc.it/ILCD/Common#CommissionerAndGoalType
+ilcd_common:CommissionerAndGoalType rdf:type owl:Class ;
+                                    rdfs:subClassOf ilcd:CommissionerAndGoalType .
+
+
+###  http://lca.jrc.it/ILCD/Common#DataQualityIndicatorType
+ilcd_common:DataQualityIndicatorType rdf:type owl:Class ;
+                                     rdfs:subClassOf ilcd:DataQualityIndicatorType .
+
+
+###  http://lca.jrc.it/ILCD/Common#DataQualityIndicatorsType
+ilcd_common:DataQualityIndicatorsType rdf:type owl:Class ;
+                                      rdfs:subClassOf ilcd:DataQualityIndicatorsType .
+
+
+###  http://lca.jrc.it/ILCD/Common#FlowCategorizationType
+ilcd_common:FlowCategorizationType rdf:type owl:Class ;
+                                   rdfs:subClassOf ilcd:FlowCategorizationType .
+
+
+###  http://lca.jrc.it/ILCD/Common#FlowCategoryInformationType
+ilcd_common:FlowCategoryInformationType rdf:type owl:Class ;
+                                        rdfs:subClassOf ilcd:FlowCategoryInformationType .
+
+
+###  http://lca.jrc.it/ILCD/Common#GlobalReferenceType
+ilcd_common:GlobalReferenceType rdf:type owl:Class ;
+                                rdfs:subClassOf ilcd:GlobalReferenceType .
+
+
+###  http://lca.jrc.it/ILCD/Common#LocationType
+ilcd_common:LocationType rdf:type owl:Class ;
+                         rdfs:subClassOf ilcd:LocationType .
+
+
+###  http://lca.jrc.it/ILCD/Common#TimeType
+ilcd_common:TimeType rdf:type owl:Class ;
+                     rdfs:subClassOf ilcd:TimeType .
+
+
+###  http://lca.jrc.it/ILCD/Contact#AdministrativeInformationType
+ilcd_contact:AdministrativeInformationType rdf:type owl:Class ;
+                                           rdfs:subClassOf ilcd:AdministrativeInformationType .
+
+
+###  http://lca.jrc.it/ILCD/Contact#ContactInformationType
+ilcd_contact:ContactInformationType rdf:type owl:Class ;
+                                    rdfs:subClassOf ilcd:ContactInformationType .
+
+
+###  http://lca.jrc.it/ILCD/Contact#DataEntryByType
+ilcd_contact:DataEntryByType rdf:type owl:Class ;
+                             rdfs:subClassOf ilcd:DataEntryByType .
+
+
+###  http://lca.jrc.it/ILCD/Contact#DataSetInformationType
+ilcd_contact:DataSetInformationType rdf:type owl:Class ;
+                                    rdfs:subClassOf ilcd:DataSetInformationType .
+
+
+###  http://lca.jrc.it/ILCD/Contact#PublicationAndOwnershipType
+ilcd_contact:PublicationAndOwnershipType rdf:type owl:Class ;
+                                         rdfs:subClassOf ilcd:PublicationAndOwnershipType .
+
+
+###  http://lca.jrc.it/ILCD/Contact/ContactDataSetType
+<http://lca.jrc.it/ILCD/Contact/ContactDataSetType> rdf:type owl:Class ;
+                                                    rdfs:subClassOf ilcd:ContactDataSetType .
+
+
+###  http://lca.jrc.it/ILCD/Flow#AdministrativeInformationType
+ilcd_flow:AdministrativeInformationType rdf:type owl:Class ;
+                                        rdfs:subClassOf ilcd:AdministrativeInformationType .
+
+
+###  http://lca.jrc.it/ILCD/Flow#ComplianceDeclarationsType
+ilcd_flow:ComplianceDeclarationsType rdf:type owl:Class ;
+                                     rdfs:subClassOf ilcd:ComplianceDeclarationsType .
+
+
+###  http://lca.jrc.it/ILCD/Flow#ComplianceType
+ilcd_flow:ComplianceType rdf:type owl:Class ;
+                         rdfs:subClassOf ilcd:ComplianceType .
+
+
+###  http://lca.jrc.it/ILCD/Flow#DataEntryByType
+ilcd_flow:DataEntryByType rdf:type owl:Class ;
+                          rdfs:subClassOf ilcd:DataEntryByType .
+
+
+###  http://lca.jrc.it/ILCD/Flow#DataSetInformationType
+ilcd_flow:DataSetInformationType rdf:type owl:Class ;
+                                 rdfs:subClassOf ilcd:DataSetInformationType .
+
+
+###  http://lca.jrc.it/ILCD/Flow#FlowInformationType
+ilcd_flow:FlowInformationType rdf:type owl:Class ;
+                              rdfs:subClassOf ilcd:FlowInformationType .
+
+
+###  http://lca.jrc.it/ILCD/Flow#FlowPropertiesType
+ilcd_flow:FlowPropertiesType rdf:type owl:Class ;
+                             rdfs:subClassOf ilcd:FlowPropertiesType .
+
+
+###  http://lca.jrc.it/ILCD/Flow#FlowPropertyType
+ilcd_flow:FlowPropertyType rdf:type owl:Class ;
+                           rdfs:subClassOf ilcd:FlowPropertyType .
+
+
+###  http://lca.jrc.it/ILCD/Flow#GeographyType
+ilcd_flow:GeographyType rdf:type owl:Class ;
+                        rdfs:subClassOf ilcd:GeographyType .
+
+
+###  http://lca.jrc.it/ILCD/Flow#LCIMethodType
+ilcd_flow:LCIMethodType rdf:type owl:Class ;
+                        rdfs:subClassOf ilcd:LCIMethodType .
+
+
+###  http://lca.jrc.it/ILCD/Flow#ModellingAndValidationType
+ilcd_flow:ModellingAndValidationType rdf:type owl:Class ;
+                                     rdfs:subClassOf ilcd:ModellingAndValidationType .
+
+
+###  http://lca.jrc.it/ILCD/Flow#NameType
+ilcd_flow:NameType rdf:type owl:Class ;
+                   rdfs:subClassOf ilcd:NameType .
+
+
+###  http://lca.jrc.it/ILCD/Flow#Other
+ilcd_flow:Other rdf:type owl:Class ;
+                rdfs:subClassOf ilcd:Other .
+
+
+###  http://lca.jrc.it/ILCD/Flow#PublicationAndOwnershipType
+ilcd_flow:PublicationAndOwnershipType rdf:type owl:Class ;
+                                      rdfs:subClassOf ilcd:PublicationAndOwnershipType .
+
+
+###  http://lca.jrc.it/ILCD/Flow#QuantitativeReferenceType
+ilcd_flow:QuantitativeReferenceType rdf:type owl:Class ;
+                                    rdfs:subClassOf ilcd:QuantitativeReferenceType .
+
+
+###  http://lca.jrc.it/ILCD/Flow#TechnologyType
+ilcd_flow:TechnologyType rdf:type owl:Class ;
+                         rdfs:subClassOf ilcd:TechnologyType .
+
+
+###  http://lca.jrc.it/ILCD/Flow/FlowDataSetType
+<http://lca.jrc.it/ILCD/Flow/FlowDataSetType> rdf:type owl:Class ;
+                                              rdfs:subClassOf ilcd:FlowDataSetType .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#AdministrativeInformationType
+ilcd_flow_property:AdministrativeInformationType rdf:type owl:Class ;
+                                                 rdfs:subClassOf ilcd:AdministrativeInformationType .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#ClassType
+ilcd_flow_property:ClassType rdf:type owl:Class ;
+                             rdfs:subClassOf ilcd:ClassType .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#ClassificationInformationType
+ilcd_flow_property:ClassificationInformationType rdf:type owl:Class ;
+                                                 rdfs:subClassOf ilcd:ClassificationInformationType .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#ClassificationType
+ilcd_flow_property:ClassificationType rdf:type owl:Class ;
+                                      rdfs:subClassOf ilcd:ClassificationType .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#ComplianceDeclarationsType
+ilcd_flow_property:ComplianceDeclarationsType rdf:type owl:Class ;
+                                              rdfs:subClassOf ilcd:ComplianceDeclarationsType .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#ComplianceType
+ilcd_flow_property:ComplianceType rdf:type owl:Class ;
+                                  rdfs:subClassOf ilcd:ComplianceType .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#DataEntryByType
+ilcd_flow_property:DataEntryByType rdf:type owl:Class ;
+                                   rdfs:subClassOf ilcd:DataEntryByType .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#DataSetInformationType
+ilcd_flow_property:DataSetInformationType rdf:type owl:Class ;
+                                          rdfs:subClassOf ilcd:DataSetInformationType .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#DataSourcesTreatmentAndRepresentativenessType
+ilcd_flow_property:DataSourcesTreatmentAndRepresentativenessType rdf:type owl:Class ;
+                                                                 rdfs:subClassOf ilcd:DataSourcesTreatmentAndRepresentativenessType .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#FlowPropertiesInformationType
+ilcd_flow_property:FlowPropertiesInformationType rdf:type owl:Class ;
+                                                 rdfs:subClassOf ilcd:FlowPropertiesInformationType .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#ModellingAndValidationType
+ilcd_flow_property:ModellingAndValidationType rdf:type owl:Class ;
+                                              rdfs:subClassOf ilcd:ModellingAndValidationType .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#PublicationAndOwnershipType
+ilcd_flow_property:PublicationAndOwnershipType rdf:type owl:Class ;
+                                               rdfs:subClassOf ilcd:PublicationAndOwnershipType .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty#QuantitativeReferenceType
+ilcd_flow_property:QuantitativeReferenceType rdf:type owl:Class ;
+                                             rdfs:subClassOf ilcd:QuantitativeReferenceType .
+
+
+###  http://lca.jrc.it/ILCD/FlowProperty/FlowPropertyDataSetType
+<http://lca.jrc.it/ILCD/FlowProperty/FlowPropertyDataSetType> rdf:type owl:Class ;
+                                                              rdfs:subClassOf ilcd:FlowPropertyDataSetType .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#AdministrativeInformationType
+ilcd_lcia_methods:AdministrativeInformationType rdf:type owl:Class ;
+                                                rdfs:subClassOf ilcd:AdministrativeInformationType .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#CharacterisationFactorType
+ilcd_lcia_methods:CharacterisationFactorType rdf:type owl:Class ;
+                                             rdfs:subClassOf ilcd:CharacterisationFactorType .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#CharacterisationFactorsType
+ilcd_lcia_methods:CharacterisationFactorsType rdf:type owl:Class ;
+                                              rdfs:subClassOf ilcd:CharacterisationFactorsType .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#CompletenessType
+ilcd_lcia_methods:CompletenessType rdf:type owl:Class ;
+                                   rdfs:subClassOf ilcd:CompletenessType .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#DataEntryByType
+ilcd_lcia_methods:DataEntryByType rdf:type owl:Class ;
+                                  rdfs:subClassOf ilcd:DataEntryByType .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#DataGeneratorType
+ilcd_lcia_methods:DataGeneratorType rdf:type owl:Class ;
+                                    rdfs:subClassOf ilcd:DataGeneratorType .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#DataSetInformationType
+ilcd_lcia_methods:DataSetInformationType rdf:type owl:Class ;
+                                         rdfs:subClassOf ilcd:DataSetInformationType .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#DataSourcesType
+ilcd_lcia_methods:DataSourcesType rdf:type owl:Class ;
+                                  rdfs:subClassOf ilcd:DataSourcesType .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#GeographyType
+ilcd_lcia_methods:GeographyType rdf:type owl:Class ;
+                                rdfs:subClassOf ilcd:GeographyType .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#ImpactModelType
+ilcd_lcia_methods:ImpactModelType rdf:type owl:Class ;
+                                  rdfs:subClassOf ilcd:ImpactModelType .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#LCIAMethodInformationType
+ilcd_lcia_methods:LCIAMethodInformationType rdf:type owl:Class ;
+                                            rdfs:subClassOf ilcd:LCIAMethodInformationType .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#LCIAMethodNormalisationAndWeightingType
+ilcd_lcia_methods:LCIAMethodNormalisationAndWeightingType rdf:type owl:Class ;
+                                                          rdfs:subClassOf ilcd:LCIAMethodNormalisationAndWeightingType .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#Method
+ilcd_lcia_methods:Method rdf:type owl:Class ;
+                         rdfs:subClassOf ilcd:Method .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#ModellingAndValidationType
+ilcd_lcia_methods:ModellingAndValidationType rdf:type owl:Class ;
+                                             rdfs:subClassOf ilcd:ModellingAndValidationType .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#PublicationAndOwnershipType
+ilcd_lcia_methods:PublicationAndOwnershipType rdf:type owl:Class ;
+                                              rdfs:subClassOf ilcd:PublicationAndOwnershipType .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#QuantitativeReferenceType
+ilcd_lcia_methods:QuantitativeReferenceType rdf:type owl:Class ;
+                                            rdfs:subClassOf ilcd:QuantitativeReferenceType .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#RecommendationType
+ilcd_lcia_methods:RecommendationType rdf:type owl:Class ;
+                                     rdfs:subClassOf ilcd:RecommendationType .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#ReviewType
+ilcd_lcia_methods:ReviewType rdf:type owl:Class ;
+                             rdfs:subClassOf ilcd:ReviewType .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#Scope
+ilcd_lcia_methods:Scope rdf:type owl:Class ;
+                        rdfs:subClassOf ilcd:Scope .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#TimeType
+ilcd_lcia_methods:TimeType rdf:type owl:Class ;
+                           rdfs:subClassOf ilcd:TimeType .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod#ValidationType
+ilcd_lcia_methods:ValidationType rdf:type owl:Class ;
+                                 rdfs:subClassOf ilcd:ValidationType .
+
+
+###  http://lca.jrc.it/ILCD/LCIAMethod/LCIAMethodDataSetType
+<http://lca.jrc.it/ILCD/LCIAMethod/LCIAMethodDataSetType> rdf:type owl:Class ;
+                                                          rdfs:subClassOf ilcd:LCIAMethodDataSetType .
+
+
+###  http://lca.jrc.it/ILCD/Process#AdministrativeInformationType
+ilcd_process:AdministrativeInformationType rdf:type owl:Class ;
+                                           rdfs:subClassOf ilcd:AdministrativeInformationType .
+
+
+###  http://lca.jrc.it/ILCD/Process#CompletenessElementaryFlowsType
+ilcd_process:CompletenessElementaryFlowsType rdf:type owl:Class ;
+                                             rdfs:subClassOf ilcd:CompletenessElementaryFlowsType .
+
+
+###  http://lca.jrc.it/ILCD/Process#CompletenessType
+ilcd_process:CompletenessType rdf:type owl:Class ;
+                              rdfs:subClassOf ilcd:CompletenessType .
+
+
+###  http://lca.jrc.it/ILCD/Process#ComplianceDeclarationsType
+ilcd_process:ComplianceDeclarationsType rdf:type owl:Class ;
+                                        rdfs:subClassOf ilcd:ComplianceDeclarationsType .
+
+
+###  http://lca.jrc.it/ILCD/Process#ComplianceType
+ilcd_process:ComplianceType rdf:type owl:Class ;
+                            rdfs:subClassOf ilcd:ComplianceType .
+
+
+###  http://lca.jrc.it/ILCD/Process#DataEntryByType
+ilcd_process:DataEntryByType rdf:type owl:Class ;
+                             rdfs:subClassOf ilcd:DataEntryByType .
+
+
+###  http://lca.jrc.it/ILCD/Process#DataGeneratorType
+ilcd_process:DataGeneratorType rdf:type owl:Class ;
+                               rdfs:subClassOf ilcd:DataGeneratorType .
+
+
+###  http://lca.jrc.it/ILCD/Process#DataSetInformationType
+ilcd_process:DataSetInformationType rdf:type owl:Class ;
+                                    rdfs:subClassOf ilcd:DataSetInformationType .
+
+
+###  http://lca.jrc.it/ILCD/Process#DataSourcesTreatmentAndRepresentativenessType
+ilcd_process:DataSourcesTreatmentAndRepresentativenessType rdf:type owl:Class ;
+                                                           rdfs:subClassOf ilcd:DataSourcesTreatmentAndRepresentativenessType .
+
+
+###  http://lca.jrc.it/ILCD/Process#ExchangeType
+ilcd_process:ExchangeType rdf:type owl:Class ;
+                          rdfs:subClassOf ilcd:ExchangeType .
+
+
+###  http://lca.jrc.it/ILCD/Process#ExchangesType
+ilcd_process:ExchangesType rdf:type owl:Class ;
+                           rdfs:subClassOf ilcd:ExchangesType .
+
+
+###  http://lca.jrc.it/ILCD/Process#GeographyType
+ilcd_process:GeographyType rdf:type owl:Class ;
+                           rdfs:subClassOf ilcd:GeographyType .
+
+
+###  http://lca.jrc.it/ILCD/Process#LCIMethodAndAllocationType
+ilcd_process:LCIMethodAndAllocationType rdf:type owl:Class ;
+                                        rdfs:subClassOf ilcd:LCIMethodAndAllocationType .
+
+
+###  http://lca.jrc.it/ILCD/Process#LocationOfOperationSupplyOrProductionType
+ilcd_process:LocationOfOperationSupplyOrProductionType rdf:type owl:Class ;
+                                                       rdfs:subClassOf ilcd:LocationOfOperationSupplyOrProductionType .
+
+
+###  http://lca.jrc.it/ILCD/Process#MathematicalRelationsType
+ilcd_process:MathematicalRelationsType rdf:type owl:Class ;
+                                       rdfs:subClassOf ilcd:MathematicalRelationsType .
+
+
+###  http://lca.jrc.it/ILCD/Process#Method
+ilcd_process:Method rdf:type owl:Class ;
+                    rdfs:subClassOf ilcd:Method .
+
+
+###  http://lca.jrc.it/ILCD/Process#ModellingAndValidationType
+ilcd_process:ModellingAndValidationType rdf:type owl:Class ;
+                                        rdfs:subClassOf ilcd:ModellingAndValidationType .
+
+
+###  http://lca.jrc.it/ILCD/Process#NameType
+ilcd_process:NameType rdf:type owl:Class ;
+                      rdfs:subClassOf ilcd:NameType .
+
+
+###  http://lca.jrc.it/ILCD/Process#Other
+ilcd_process:Other rdf:type owl:Class ;
+                   rdfs:subClassOf ilcd:Other .
+
+
+###  http://lca.jrc.it/ILCD/Process#ProcessInformationType
+ilcd_process:ProcessInformationType rdf:type owl:Class ;
+                                    rdfs:subClassOf ilcd:ProcessInformationType .
+
+
+###  http://lca.jrc.it/ILCD/Process#PublicationAndOwnershipType
+ilcd_process:PublicationAndOwnershipType rdf:type owl:Class ;
+                                         rdfs:subClassOf ilcd:PublicationAndOwnershipType .
+
+
+###  http://lca.jrc.it/ILCD/Process#QuantitativeReferenceType
+ilcd_process:QuantitativeReferenceType rdf:type owl:Class ;
+                                       rdfs:subClassOf ilcd:QuantitativeReferenceType .
+
+
+###  http://lca.jrc.it/ILCD/Process#ReviewType
+ilcd_process:ReviewType rdf:type owl:Class ;
+                        rdfs:subClassOf ilcd:ReviewType .
+
+
+###  http://lca.jrc.it/ILCD/Process#Scope
+ilcd_process:Scope rdf:type owl:Class ;
+                   rdfs:subClassOf ilcd:Scope .
+
+
+###  http://lca.jrc.it/ILCD/Process#SubLocationOfOperationSupplyOrProductionType
+ilcd_process:SubLocationOfOperationSupplyOrProductionType rdf:type owl:Class ;
+                                                          rdfs:subClassOf ilcd:SubLocationOfOperationSupplyOrProductionType .
+
+
+###  http://lca.jrc.it/ILCD/Process#TechnologyType
+ilcd_process:TechnologyType rdf:type owl:Class ;
+                            rdfs:subClassOf ilcd:TechnologyType .
+
+
+###  http://lca.jrc.it/ILCD/Process#ValidationType
+ilcd_process:ValidationType rdf:type owl:Class ;
+                            rdfs:subClassOf ilcd:ValidationType .
+
+
+###  http://lca.jrc.it/ILCD/Process/ProcessDataSetType
+<http://lca.jrc.it/ILCD/Process/ProcessDataSetType> rdf:type owl:Class ;
+                                                    rdfs:subClassOf ilcd:ProcessDataSetType .
+
+
+###  http://lca.jrc.it/ILCD/Source#AdministrativeInformationType
+ilcd_source:AdministrativeInformationType rdf:type owl:Class ;
+                                          rdfs:subClassOf ilcd:AdministrativeInformationType .
+
+
+###  http://lca.jrc.it/ILCD/Source#DataEntryByType
+ilcd_source:DataEntryByType rdf:type owl:Class ;
+                            rdfs:subClassOf ilcd:DataEntryByType .
+
+
+###  http://lca.jrc.it/ILCD/Source#DataSetInformationType
+ilcd_source:DataSetInformationType rdf:type owl:Class ;
+                                   rdfs:subClassOf ilcd:DataSetInformationType .
+
+
+###  http://lca.jrc.it/ILCD/Source#PublicationAndOwnershipType
+ilcd_source:PublicationAndOwnershipType rdf:type owl:Class ;
+                                        rdfs:subClassOf ilcd:PublicationAndOwnershipType .
+
+
+###  http://lca.jrc.it/ILCD/Source#ReferenceToDigitalFileType
+ilcd_source:ReferenceToDigitalFileType rdf:type owl:Class ;
+                                       rdfs:subClassOf ilcd:ReferenceToDigitalFileType .
+
+
+###  http://lca.jrc.it/ILCD/Source#SourceInformationType
+ilcd_source:SourceInformationType rdf:type owl:Class ;
+                                  rdfs:subClassOf ilcd:SourceInformationType .
+
+
+###  http://lca.jrc.it/ILCD/Source/SourceDataSetType
+<http://lca.jrc.it/ILCD/Source/SourceDataSetType> rdf:type owl:Class ;
+                                                  rdfs:subClassOf ilcd:SourceDataSetType .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#AdministrativeInformationType
+<http://lca.jrc.it/ILCD/UnitGroup#AdministrativeInformationType> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf ilcd:AdministrativeInformationType .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#ComplianceDeclarationsType
+<http://lca.jrc.it/ILCD/UnitGroup#ComplianceDeclarationsType> rdf:type owl:Class ;
+                                                              rdfs:subClassOf ilcd:ComplianceDeclarationsType .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#ComplianceType
+<http://lca.jrc.it/ILCD/UnitGroup#ComplianceType> rdf:type owl:Class ;
+                                                  rdfs:subClassOf ilcd:ComplianceType .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#DataEntryByType
+<http://lca.jrc.it/ILCD/UnitGroup#DataEntryByType> rdf:type owl:Class ;
+                                                   rdfs:subClassOf ilcd:DataEntryByType .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#DataSetInformationType
+<http://lca.jrc.it/ILCD/UnitGroup#DataSetInformationType> rdf:type owl:Class ;
+                                                          rdfs:subClassOf ilcd:DataSetInformationType .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#ModellingAndValidationType
+<http://lca.jrc.it/ILCD/UnitGroup#ModellingAndValidationType> rdf:type owl:Class ;
+                                                              rdfs:subClassOf ilcd:ModellingAndValidationType .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#PublicationAndOwnershipType
+<http://lca.jrc.it/ILCD/UnitGroup#PublicationAndOwnershipType> rdf:type owl:Class ;
+                                                               rdfs:subClassOf ilcd:PublicationAndOwnershipType .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#QuantitativeReferenceType
+<http://lca.jrc.it/ILCD/UnitGroup#QuantitativeReferenceType> rdf:type owl:Class ;
+                                                             rdfs:subClassOf ilcd:QuantitativeReferenceType .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#UnitGroupInformationType
+<http://lca.jrc.it/ILCD/UnitGroup#UnitGroupInformationType> rdf:type owl:Class ;
+                                                            rdfs:subClassOf ilcd:UnitGroupInformationType .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#UnitType
+<http://lca.jrc.it/ILCD/UnitGroup#UnitType> rdf:type owl:Class ;
+                                            rdfs:subClassOf ilcd:UnitType .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup#UnitsType
+<http://lca.jrc.it/ILCD/UnitGroup#UnitsType> rdf:type owl:Class ;
+                                             rdfs:subClassOf ilcd:UnitsType .
+
+
+###  http://lca.jrc.it/ILCD/UnitGroup/UnitGroupDataSetType
+<http://lca.jrc.it/ILCD/UnitGroup/UnitGroupDataSetType> rdf:type owl:Class ;
+                                                        rdfs:subClassOf ilcd:UnitGroupDataSetType .
+
+
+###  https://purl.org/wiser#BActivity
+wiser:BActivity rdf:type owl:Class .
+
+
+###  https://purl.org/wiser#BActivityFlow
+wiser:BActivityFlow rdf:type owl:Class .
+
+
+###  https://purl.org/wiser#BActivityName
+wiser:BActivityName rdf:type owl:Class .
+
+
+###  https://purl.org/wiser#BClassification
+wiser:BClassification rdf:type owl:Class .
+
+
+###  https://purl.org/wiser#BExchange
+wiser:BExchange rdf:type owl:Class .
+
+
+###  https://purl.org/wiser#BExchangeProperty
+wiser:BExchangeProperty rdf:type owl:Class .
+
+
+###  https://purl.org/wiser#BGHGEmissionFactor
+wiser:BGHGEmissionFactor rdf:type owl:Class .
+
+
+###  https://purl.org/wiser#BGeography
+wiser:BGeography rdf:type owl:Class .
+
+
+###  https://purl.org/wiser#BLCIAResult
+wiser:BLCIAResult rdf:type owl:Class .
+
+
+###  https://purl.org/wiser#BReferenceFunction
+wiser:BReferenceFunction rdf:type owl:Class .
+
+
+###  https://purl.org/wiser#BTime
+wiser:BTime rdf:type owl:Class .
+
+
+###  https://purl.org/wiser#ILCDBMainClassType
+wiser:ILCDBMainClassType rdf:type owl:Class ;
+                         owl:equivalentClass [ owl:intersectionOf ( ilcd_common:ClassType
+                                                                    [ rdf:type owl:Restriction ;
+                                                                      owl:onProperty ilcd:level ;
+                                                                      owl:hasValue "0"^^xsd:string
+                                                                    ]
+                                                                  ) ;
+                                               rdf:type owl:Class
+                                             ] .
+
+
+###  https://purl.org/wiser#ILCDBReferenceFunction
+wiser:ILCDBReferenceFunction rdf:type owl:Class .
+
+
+###  https://purl.org/wiser#ILCDBSubClassType
+wiser:ILCDBSubClassType rdf:type owl:Class ;
+                        owl:equivalentClass [ owl:intersectionOf ( ilcd_common:ClassType
+                                                                   [ rdf:type owl:Restriction ;
+                                                                     owl:onProperty ilcd:level ;
+                                                                     owl:hasValue "1"^^xsd:string
+                                                                   ]
+                                                                 ) ;
+                                              rdf:type owl:Class
+                                            ] .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://purl.org/wiser#ignore_me
+wiser:ignore_me rdf:type owl:NamedIndividual .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
