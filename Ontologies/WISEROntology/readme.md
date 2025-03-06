@@ -1,4 +1,4 @@
-# Bridge Ontology for Life Cycle Assessment Data
+# Bridge Ontology
 
 ## Overview
 
@@ -6,16 +6,16 @@ This repository contains a Bridge Ontology designed to work with multiple Life C
 
 ## Repository Structure
 
-- **Ontology**[LINK_MISSING]: Contains the terminological component (schema) of our bridge ontology
-- **RDFifier**[LINK_MISSING]: Tool for transforming Ecospold02, Ecospold01, and ILCD XML files into RDF format
-- **SampleDataGenerator**[LINK_MISSING]: Utility for generating sample ABox data for testing and demonstration purposes
+- [**Ontology**](.): Contains the terminological component (schema) of our bridge ontology
+- [**RDFifier**](../RDFifier]) Tool for transforming Ecospold02, Ecospold01, and ILCD XML files into RDF format
+- [**SampleDataGenerator**](../SampleDataGenerator): Utility for generating sample ABox data for testing and demonstration purposes
 
 ## TBox
 
 Please find the different TBoxes here:
-- [LINK_MISSING] EcoSpold02-Bridge-TBox
-- [LINK_MISSING] EcoSpold01-Bridge-TBox
-- [LINK_MISSING] ILCD-Bridge-TBox
+- [EcoSpold02-Bridge-TBox](../Ontologies/WISEROntology/EC2_TBox.ttl)
+- [EcoSpold01-Bridge-TBox](../Ontologies/WISEROntology/EC1_TBox.ttl)
+- [ILCD-Bridge-TBox](../Ontologies/WISEROntology/ILCD_TBox.ttl)
 
 ## ABox
 
