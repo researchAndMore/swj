@@ -1,4 +1,4 @@
-# WISER-SP4 Generic Converter
+# RDFifier - XML to RDF Converter
 
 ## Overview
 A reflection-based approach for converting XML-based data into RDF format, designed specifically for environmental data interchange formats.
