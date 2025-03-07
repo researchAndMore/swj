@@ -461,6 +461,9 @@
 <http://www.EcoInvent.org/EcoSpold02#activityDescription>
         a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://www.EcoInvent.org/EcoSpold02#shortname>
+                                              rdfs:subPropertyOf <https://purl.org/wiser#bGeographyTerm> .
+
 
 
 #################################################################
