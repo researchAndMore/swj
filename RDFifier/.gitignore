@@ -42,5 +42,6 @@ src/main/resources/uvek/
 *.ttl
 *.zip
 *.drawio
-/src/main/resources/plasticseurope/flows/
-/src/main/resources/plasticseurope/flows/
+/src/main/resources/plasticseurope/
+/src/main/resources/uvek
+/src/main/resources/ec2/**

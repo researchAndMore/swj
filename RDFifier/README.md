@@ -1,13 +1,40 @@
-# RDFifier
+# RDFifier - XML to RDF Converter
 
-Reflection-Based Approach to convert XML-based data into RDF.
+## Overview
+A reflection-based approach for converting XML-based data into RDF format, designed specifically for environmental data interchange formats.
 
-In order to run the application, please make sure to have the src/main/resources folder with the relevant XML-files.
-Those files might not be provided with the program.
+## Supported Formats
+The converter currently supports the following XML-based LCA data formats:
+- **EcoSpold2** (ec2)
+- **PlasticsEurope** (plasticseurope)
+- **EcoSpold01** (uvek)
 
+## Prerequisites
+Ensure you have the required XML files in the appropriate directory:
 ```
+src/main/resources/
+├── ec2/            # EcoSpold2 files
+├── plasticseurope/ # PlasticsEurope files
+└── uvek/           # EcoSpold01 files
+```
+
+⚠️ **Note**: These data files are not distributed with the application and must be obtained separately.
+
+## Installation and Usage
+
+### Building the Application
+```bash
 mvn clean install
+```
+
+### Running the Converter
+```bash
 mvn spring-boot:run
 ```
 
-You should now have the files generated to use further.
+### Output
+Upon successful execution, the application will generate RDF files in the output directory, ready for further processing or analysis.
+
+## Technical Details
+This tool utilizes Java reflection to dynamically process various XML schemas, providing a flexible and extensible approach to data conversion without requiring format-specific code for each new schema.
+
