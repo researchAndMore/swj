@@ -9,3 +9,10 @@ The folder contains the following:
 - a :bar_chart:[Benchmarking App](Benchmarking) to test performance of different features of the queries
 - a :page_facing_up:[RDFifier program](RDFifier) to transform ILCD and EcoSpold02 data to RDF
 
+## Important Note on Ontology URIs
+
+The ontologies in this collection use the following URIs:
+- `https://purl.org/wiser/`
+- `https://purl.org/wiser#`
+
+These URIs currently serve as namespace placeholders and are not yet HTTP-dereferenceable. Full URI resolution functionality is planned for future implementation.
