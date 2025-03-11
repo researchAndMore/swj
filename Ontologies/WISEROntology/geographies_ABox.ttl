@@ -3892,7 +3892,8 @@
 :TRE a :WISERGeography. :TRE a owl:NamedIndividual. <https://sws.geonames.org/4736286/>  :bGeographyParent :TRE.  :TRE :bGeographyTerm "TRE".
 :NAC a :WISERGeography. :NAC a owl:NamedIndividual. <https://sws.geonames.org/6252001/>  :bGeographyParent :NAC.  :NAC :bGeographyTerm "NAC".
 :EU25 a :WISERGeography. :EU25 a owl:NamedIndividual.  :EU25 :bGeographyTerm "EU-25".
-:BRER_wo_DE_CH a :WISERGeography. :BRER_wo_DE_CH a owl:NamedIndividual.  :BRER_wo_DE_CH :bGeographyTerm "BRER_wo_DE_CH".
+:BRER_wo_DE_CH a :WISERGeography. :BRER_wo_DE_CH a owl:NamedIndividual.  :BRER_wo_DE_CH :bGeographyTerm "RER w/o CH+DE".
+:BEuropeWithoutSwitzerland a :WISERGeography. :BEuropeWithoutSwitzerland a owl:NamedIndividual.  :BEuropeWithoutSwitzerland :bGeographyTerm "Europe without Switzerland".
 :EU27 a :WISERGeography. :EU27 a owl:NamedIndividual.  :EU27 :bGeographyTerm "EU-27".
 :EU28 a :WISERGeography. :EU28 a owl:NamedIndividual.  :EU28 :bGeographyTerm "EU-28".
 <https://sws.geonames.org/6251999/> :bGeographyParent :NAC.  
@@ -4016,6 +4017,34 @@
 <https://sws.geonames.org/3057568/> :bGeographyParent :BRER_wo_DE_CH.
 <https://sws.geonames.org/3077311/> :bGeographyParent :BRER_wo_DE_CH.
 <https://sws.geonames.org/3144096/> :bGeographyParent :BRER_wo_DE_CH.
+
+#BEuropeWithoutSwitzerland
+<https://sws.geonames.org/2802361/> :bGeographyParent :BEuropeWithoutSwitzerland.
+<https://sws.geonames.org/2921044/> :bGeographyParent :BEuropeWithoutSwitzerland.
+<https://sws.geonames.org/2623032/> :bGeographyParent :BEuropeWithoutSwitzerland.
+<https://sws.geonames.org/660013/> :bGeographyParent :BEuropeWithoutSwitzerland.
+<https://sws.geonames.org/3017382/> :bGeographyParent :BEuropeWithoutSwitzerland.
+<https://sws.geonames.org/390903/> :bGeographyParent :BEuropeWithoutSwitzerland.
+<https://sws.geonames.org/2963597/> :bGeographyParent :BEuropeWithoutSwitzerland.
+<https://sws.geonames.org/3175395/> :bGeographyParent :BEuropeWithoutSwitzerland.
+<https://sws.geonames.org/2960313/> :bGeographyParent :BEuropeWithoutSwitzerland.
+<https://sws.geonames.org/2750405/> :bGeographyParent :BEuropeWithoutSwitzerland.
+<https://sws.geonames.org/2782113/> :bGeographyParent :BEuropeWithoutSwitzerland.
+<https://sws.geonames.org/2264397/> :bGeographyParent :BEuropeWithoutSwitzerland.
+<https://sws.geonames.org/2510769/> :bGeographyParent :BEuropeWithoutSwitzerland.
+<https://sws.geonames.org/2635167/> :bGeographyParent :BEuropeWithoutSwitzerland.
+<https://sws.geonames.org/2661886/> :bGeographyParent :BEuropeWithoutSwitzerland.
+<https://sws.geonames.org/146669/> :bGeographyParent :BEuropeWithoutSwitzerland.
+<https://sws.geonames.org/453733/> :bGeographyParent :BEuropeWithoutSwitzerland.
+<https://sws.geonames.org/719819/> :bGeographyParent :BEuropeWithoutSwitzerland.
+<https://sws.geonames.org/458258/> :bGeographyParent :BEuropeWithoutSwitzerland.
+<https://sws.geonames.org/597427/> :bGeographyParent :BEuropeWithoutSwitzerland.
+<https://sws.geonames.org/2562770/> :bGeographyParent :BEuropeWithoutSwitzerland.
+<https://sws.geonames.org/798544/> :bGeographyParent :BEuropeWithoutSwitzerland.
+<https://sws.geonames.org/3190538/> :bGeographyParent :BEuropeWithoutSwitzerland.
+<https://sws.geonames.org/3057568/> :bGeographyParent :BEuropeWithoutSwitzerland.
+<https://sws.geonames.org/3077311/> :bGeographyParent :BEuropeWithoutSwitzerland.
+<https://sws.geonames.org/3144096/> :bGeographyParent :BEuropeWithoutSwitzerland.
 
 <https://sws.geonames.org/7729884/> :bGeographyTerm "RER".
 <https://sws.geonames.org/6295630/> :bGeographyTerm "GLO".
