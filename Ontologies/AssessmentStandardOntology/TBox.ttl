@@ -1,0 +1,99 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wiser: <https://purl.org/wiser#> .
+
+wiser:EnvironmentalClassificationOntology rdf:type owl:Ontology ;
+    rdfs:label "WISER Environmental Classification Ontology" .
+
+wiser:Classification rdf:type owl:Class ;
+    rdfs:label "Classification" .
+
+wiser:Category rdf:type owl:Class ;
+    rdfs:label "Category" .
+
+wiser:Link rdf:type owl:Class ;
+    rdfs:label "Link" .
+
+wiser:Organization rdf:type owl:Class ;
+    rdfs:label "Organization" .
+
+wiser:OperationalBoundary rdf:type owl:Class ;
+    rdfs:label "Operational Boundary" .
+
+wiser:Framework rdf:type owl:Class ;
+    rdfs:label "Framework" .
+
+wiser:hasCategory rdf:type owl:ObjectProperty ;
+    rdfs:label "has category" ;
+    rdfs:domain wiser:Link ;
+    rdfs:range wiser:Category .
+
+wiser:hasClassification rdf:type owl:ObjectProperty ;
+    rdfs:label "has classification" ;
+    rdfs:domain wiser:Link ;
+    rdfs:range wiser:Classification .
+
+wiser:hasExcludingClassification rdf:type owl:ObjectProperty ;
+    rdfs:label "has excluding classification" ;
+    rdfs:domain wiser:Link ;
+    rdfs:range wiser:Classification .
+
+wiser:hasOperationalBoundary rdf:type owl:ObjectProperty ;
+    rdfs:label "has operational boundary" ;
+    rdfs:domain [ rdf:type owl:Class ;
+                 owl:unionOf ( wiser:Link wiser:Category )
+               ] ;
+    rdfs:range wiser:OperationalBoundary .
+
+wiser:hasOrganization rdf:type owl:ObjectProperty ;
+    rdfs:label "has organization" ;
+    rdfs:domain wiser:Link ;
+    rdfs:range wiser:Organization .
+
+wiser:hasFramework rdf:type owl:ObjectProperty ;
+    rdfs:label "has framework" ;
+    rdfs:domain wiser:Category ;
+    rdfs:range wiser:Framework .
+
+wiser:hasISICCode rdf:type owl:DatatypeProperty ;
+    rdfs:label "has ISIC code" ;
+    rdfs:domain wiser:Classification ;
+    rdfs:range xsd:string .
+
+wiser:isicClassificationTerm rdf:type owl:DatatypeProperty ;
+    rdfs:label "ISIC classification term" ;
+    rdfs:domain wiser:Classification ;
+    rdfs:range xsd:string .
+
+wiser:ec1ClassificationTerm rdf:type owl:DatatypeProperty ;
+    rdfs:label "EC1 classification term" ;
+    rdfs:domain wiser:Classification ;
+    rdfs:range xsd:string .
+
+wiser:isExclusionLink rdf:type owl:DatatypeProperty ;
+    rdfs:label "is exclusion link" ;
+    rdfs:domain wiser:Link ;
+    rdfs:range xsd:boolean .
+
+wiser:subClassificationOf rdf:type owl:ObjectProperty ;
+    rdfs:label "sub-classification of" ;
+    rdfs:domain wiser:Classification ;
+    rdfs:range wiser:Classification .
+
+wiser:isicSubClassificationOf rdfs:subPropertyOf wiser:subClassificationOf ;
+    rdfs:label "ISIC sub-classification of" ;
+    rdfs:domain wiser:Classification ;
+    rdfs:range wiser:Classification .
+
+wiser:isISICClassificationOf rdfs:subPropertyOf wiser:subClassificationOf ;
+    rdfs:label "is ISIC classification of" ;
+    rdfs:domain rdfs:Resource ;
+    rdfs:range wiser:Classification .
+
+wiser:uvekClassificationOf rdfs:subPropertyOf wiser:subClassificationOf ;
+    rdfs:label "UVEK classification of" ;
+    rdfs:domain wiser:Classification ;
+    rdfs:range wiser:Classification .

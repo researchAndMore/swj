@@ -1,4 +1,4 @@
-# Bridge Ontology
+# WISER Ontology 
 
 ## Overview
 
