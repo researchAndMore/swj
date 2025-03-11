@@ -13,9 +13,9 @@ This repository contains a Bridge Ontology designed to work with multiple Life C
 ## TBox
 
 Please find the different TBoxes here:
-- [EcoSpold02-Bridge-TBox](../Ontologies/WISEROntology/EC2_TBox.ttl)
-- [EcoSpold01-Bridge-TBox](../Ontologies/WISEROntology/EC1_TBox.ttl)
-- [ILCD-Bridge-TBox](../Ontologies/WISEROntology/ILCD_TBox.ttl)
+- [EcoSpold02-Bridge-TBox](../WISEROntology/EC2_TBox.ttl)
+- [EcoSpold01-Bridge-TBox](../WISEROntology/EC1_TBox.ttl)
+- [ILCD-Bridge-TBox](../WISEROntology/ILCD_TBox.ttl)
 
 ## ABox
 
