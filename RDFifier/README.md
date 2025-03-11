@@ -6,7 +6,7 @@ A reflection-based approach for converting XML-based data into RDF format, desig
 ## Supported Formats
 The converter currently supports the following XML-based LCA data formats:
 - **EcoSpold2** (ec2)
-- **PlasticsEurope** (plasticseurope)
+- **ILCD** (plasticseurope)
 - **EcoSpold01** (uvek)
 
 ## Prerequisites
@@ -14,7 +14,7 @@ Ensure you have the required XML files in the appropriate directory:
 ```
 src/main/resources/
 ├── ec2/            # EcoSpold2 files
-├── plasticseurope/ # PlasticsEurope files
+├── plasticseurope/ # ILCD files 
 └── uvek/           # EcoSpold01 files
 ```
 
