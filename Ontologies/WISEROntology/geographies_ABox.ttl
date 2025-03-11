@@ -1,3 +1,4 @@
+@prefix : <https://purl.org/wiser#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix ns1: <http://www.geonames.org/ontology#> .
@@ -5,6 +6,8 @@
 @prefix ns3: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix org: <http://www.w3.org/ns/org#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 
 <https://sws.geonames.org/10922497/about.rdf> a foaf:Document ;
     ns2:attributionName "GeoNames"^^<https://www.w3.org/2001/XMLSchema#string> ;
@@ -3819,3 +3822,347 @@
     ns3:lat "47.00016" ;
     ns3:long "8.01427" .
 
+:ERCOT a :WISERGeography. :ERCOTa owl:NamedIndividual. <https://sws.geonames.org/4736286/>  :bGeographyParent :ERCOT.  :ERCOT :bGeographyTerm "ERCOT".
+:WECC a :WISERGeography. :WECC a owl:NamedIndividual. <https://sws.geonames.org/5332921/>  :bGeographyParent :WECC.  :WECC :bGeographyTerm "WECC".
+:WECC a :WISERGeography. :WECC a owl:NamedIndividual. <https://sws.geonames.org/5815135/>  :bGeographyParent :WECC.  :WECC :bGeographyTerm "WECC".
+:WECC a :WISERGeography. :WECC a owl:NamedIndividual. <https://sws.geonames.org/5744337/>  :bGeographyParent :WECC.  :WECC :bGeographyTerm "WECC".
+:WECC a :WISERGeography. :WECC a owl:NamedIndividual. <https://sws.geonames.org/5551752/>  :bGeographyParent :WECC.  :WECC :bGeographyTerm "WECC".
+:WECC a :WISERGeography. :WECC a owl:NamedIndividual. <https://sws.geonames.org/5509151/>  :bGeographyParent :WECC.  :WECC :bGeographyTerm "WECC".
+:WECC a :WISERGeography. :WECC a owl:NamedIndividual. <https://sws.geonames.org/5596512/>  :bGeographyParent :WECC.  :WECC :bGeographyTerm "WECC".
+:WECC a :WISERGeography. :WECC a owl:NamedIndividual. <https://sws.geonames.org/5667009/>  :bGeographyParent :WECC.  :WECC :bGeographyTerm "WECC".
+:WECC a :WISERGeography. :WECC a owl:NamedIndividual. <https://sws.geonames.org/5843591/>  :bGeographyParent :WECC.  :WECC :bGeographyTerm "WECC".
+:WECC a :WISERGeography. :WECC a owl:NamedIndividual. <https://sws.geonames.org/5549030/>  :bGeographyParent :WECC.  :WECC :bGeographyTerm "WECC".
+:WECC a :WISERGeography. :WECC a owl:NamedIndividual. <https://sws.geonames.org/5417618/>  :bGeographyParent :WECC.  :WECC :bGeographyTerm "WECC".
+:WECC a :WISERGeography. :WECC a owl:NamedIndividual. <https://sws.geonames.org/5481136/>  :bGeographyParent :WECC.  :WECC :bGeographyTerm "WECC".
+:WECC a :WISERGeography. :WECC a owl:NamedIndividual. <https://sws.geonames.org/5879092/>  :bGeographyParent :WECC.  :WECC :bGeographyTerm "WECC".
+:WECC a :WISERGeography. :WECC a owl:NamedIndividual. <https://sws.geonames.org/5855797/>  :bGeographyParent :WECC.  :WECC :bGeographyTerm "WECC".
+:SERC a :WISERGeography. :SERC a owl:NamedIndividual. <https://sws.geonames.org/4155751/>  :bGeographyParent :SERC.  :SERC :bGeographyTerm "SERC".
+:SERC a :WISERGeography. :SERC a owl:NamedIndividual. <https://sws.geonames.org/4197000/>  :bGeographyParent :SERC.  :SERC :bGeographyTerm "SERC".
+:SERC a :WISERGeography. :SERC a owl:NamedIndividual. <https://sws.geonames.org/4829764/>  :bGeographyParent :SERC.  :SERC :bGeographyTerm "SERC".
+:SERC a :WISERGeography. :SERC a owl:NamedIndividual. <https://sws.geonames.org/4436287/>  :bGeographyParent :SERC.  :SERC :bGeographyTerm "SERC".
+:SERC a :WISERGeography. :SERC a owl:NamedIndividual. <https://sws.geonames.org/4597040/>  :bGeographyParent :SERC.  :SERC :bGeographyTerm "SERC".
+:SERC a :WISERGeography. :SERC a owl:NamedIndividual. <https://sws.geonames.org/4482348/>  :bGeographyParent :SERC.  :SERC :bGeographyTerm "SERC".
+:SERC a :WISERGeography. :SERC a owl:NamedIndividual. <https://sws.geonames.org/4662168/>  :bGeographyParent :SERC.  :SERC :bGeographyTerm "SERC".
+:SERC a :WISERGeography. :SERC a owl:NamedIndividual. <https://sws.geonames.org/4297983/>  :bGeographyParent :SERC.  :SERC :bGeographyTerm "SERC".
+:SERC a :WISERGeography. :SERC a owl:NamedIndividual. <https://sws.geonames.org/6254928/>  :bGeographyParent :SERC.  :SERC :bGeographyTerm "SERC".
+:SERC a :WISERGeography. :SERC a owl:NamedIndividual. <https://sws.geonames.org/4826850/>  :bGeographyParent :SERC.  :SERC :bGeographyTerm "SERC".
+:SERC a :WISERGeography. :SERC a owl:NamedIndividual. <https://sws.geonames.org/4099753/>  :bGeographyParent :SERC.  :SERC :bGeographyTerm "SERC".
+:SERC a :WISERGeography. :SERC a owl:NamedIndividual. <https://sws.geonames.org/4331987/>  :bGeographyParent :SERC.  :SERC :bGeographyTerm "SERC".
+:SERC a :WISERGeography. :SERC a owl:NamedIndividual. <https://sws.geonames.org/4398678/>  :bGeographyParent :SERC.  :SERC :bGeographyTerm "SERC".
+:MRO a :WISERGeography. :MRO a owl:NamedIndividual. <https://sws.geonames.org/4896861/>  :bGeographyParent :MRO.  :MRO :bGeographyTerm "MRO".
+:MRO a :WISERGeography. :MRO a owl:NamedIndividual. <https://sws.geonames.org/4921868/>  :bGeographyParent :MRO.  :MRO :bGeographyTerm "MRO".
+:MRO a :WISERGeography. :MRO a owl:NamedIndividual. <https://sws.geonames.org/5001836/>  :bGeographyParent :MRO.  :MRO :bGeographyTerm "MRO".
+:MRO a :WISERGeography. :MRO a owl:NamedIndividual. <https://sws.geonames.org/5037779/>  :bGeographyParent :MRO.  :MRO :bGeographyTerm "MRO".
+:MRO a :WISERGeography. :MRO a owl:NamedIndividual. <https://sws.geonames.org/5165418/>  :bGeographyParent :MRO.  :MRO :bGeographyTerm "MRO".
+:MRO a :WISERGeography. :MRO a owl:NamedIndividual. <https://sws.geonames.org/5279468/>  :bGeographyParent :MRO.  :MRO :bGeographyTerm "MRO".
+:MRO a :WISERGeography. :MRO a owl:NamedIndividual. <https://sws.geonames.org/4862182/>  :bGeographyParent :MRO.  :MRO :bGeographyTerm "MRO".
+:MRO a :WISERGeography. :MRO a owl:NamedIndividual. <https://sws.geonames.org/4273857/>  :bGeographyParent :MRO.  :MRO :bGeographyTerm "MRO".
+:MRO a :WISERGeography. :MRO a owl:NamedIndividual. <https://sws.geonames.org/5073708/>  :bGeographyParent :MRO.  :MRO :bGeographyTerm "MRO".
+:MRO a :WISERGeography. :MRO a owl:NamedIndividual. <https://sws.geonames.org/5690763/>  :bGeographyParent :MRO.  :MRO :bGeographyTerm "MRO".
+:MRO a :WISERGeography. :MRO a owl:NamedIndividual. <https://sws.geonames.org/5769223/>  :bGeographyParent :MRO.  :MRO :bGeographyTerm "MRO".
+:NPCC a :WISERGeography. :NPCC a owl:NamedIndividual. <https://sws.geonames.org/5128638/>  :bGeographyParent :NPCC.  :NPCC :bGeographyTerm "NPCC".
+:NPCC a :WISERGeography. :NPCC a owl:NamedIndividual. <https://sws.geonames.org/5101760/>  :bGeographyParent :NPCC.  :NPCC :bGeographyTerm "NPCC".
+:NPCC a :WISERGeography. :NPCC a owl:NamedIndividual. <https://sws.geonames.org/5281959/>  :bGeographyParent :NPCC.  :NPCC :bGeographyTerm "NPCC".
+:NPCC a :WISERGeography. :NPCC a owl:NamedIndividual. <https://sws.geonames.org/6254926/>  :bGeographyParent :NPCC.  :NPCC :bGeographyTerm "NPCC".
+:NPCC a :WISERGeography. :NPCC a owl:NamedIndividual. <https://sws.geonames.org/6254925/>  :bGeographyParent :NPCC.  :NPCC :bGeographyTerm "NPCC".
+:NPCC a :WISERGeography. :NPCC a owl:NamedIndividual. <https://sws.geonames.org/5224323/>  :bGeographyParent :NPCC.  :NPCC :bGeographyTerm "NPCC".
+:NPCC a :WISERGeography. :NPCC a owl:NamedIndividual. <https://sws.geonames.org/5242283/>  :bGeographyParent :NPCC.  :NPCC :bGeographyTerm "NPCC".
+:NPCC a :WISERGeography. :NPCC a owl:NamedIndividual. <https://sws.geonames.org/5090174/>  :bGeographyParent :NPCC.  :NPCC :bGeographyTerm "NPCC".
+:NPCC a :WISERGeography. :NPCC a owl:NamedIndividual. <https://sws.geonames.org/4971068/>  :bGeographyParent :NPCC.  :NPCC :bGeographyTerm "NPCC".
+:RFC a :WISERGeography. :RFC a owl:NamedIndividual. <https://sws.geonames.org/5165418/>  :bGeographyParent :RFC.  :RFC :bGeographyTerm "RFC".
+:RFC a :WISERGeography. :RFC a owl:NamedIndividual. <https://sws.geonames.org/4921868/>  :bGeographyParent :RFC.  :RFC :bGeographyTerm "RFC".
+:RFC a :WISERGeography. :RFC a owl:NamedIndividual. <https://sws.geonames.org/5001836/>  :bGeographyParent :RFC.  :RFC :bGeographyTerm "RFC".
+:RFC a :WISERGeography. :RFC a owl:NamedIndividual. <https://sws.geonames.org/6254925/>  :bGeographyParent :RFC.  :RFC :bGeographyTerm "RFC".
+:RFC a :WISERGeography. :RFC a owl:NamedIndividual. <https://sws.geonames.org/4826850/>  :bGeographyParent :RFC.  :RFC :bGeographyTerm "RFC".
+:RFC a :WISERGeography. :RFC a owl:NamedIndividual. <https://sws.geonames.org/4361885/>  :bGeographyParent :RFC.  :RFC :bGeographyTerm "RFC".
+:RFC a :WISERGeography. :RFC a owl:NamedIndividual. <https://sws.geonames.org/5101760/>  :bGeographyParent :RFC.  :RFC :bGeographyTerm "RFC".
+:RFC a :WISERGeography. :RFC a owl:NamedIndividual. <https://sws.geonames.org/4142224/>  :bGeographyParent :RFC.  :RFC :bGeographyTerm "RFC".
+:RFC a :WISERGeography. :RFC a owl:NamedIndividual. <https://sws.geonames.org/6254928/>  :bGeographyParent :RFC.  :RFC :bGeographyTerm "RFC".
+:RFC a :WISERGeography. :RFC a owl:NamedIndividual. <https://sws.geonames.org/4140963/>  :bGeographyParent :RFC.  :RFC :bGeographyTerm "RFC".
+:FRCC a :WISERGeography. :FRCC a owl:NamedIndividual. <https://sws.geonames.org/4155751/>  :bGeographyParent :FRCC.  :FRCC :bGeographyTerm "FRCC".
+:SPP a :WISERGeography. :SPP a owl:NamedIndividual. <https://sws.geonames.org/4544379/>  :bGeographyParent :SPP.  :SPP :bGeographyTerm "SPP".
+:SPP a :WISERGeography. :SPP a owl:NamedIndividual. <https://sws.geonames.org/4273857/>  :bGeographyParent :SPP.  :SPP :bGeographyTerm "SPP".
+:SPP a :WISERGeography. :SPP a owl:NamedIndividual. <https://sws.geonames.org/5073708/>  :bGeographyParent :SPP.  :SPP :bGeographyTerm "SPP".
+:SPP a :WISERGeography. :SPP a owl:NamedIndividual. <https://sws.geonames.org/4099753/>  :bGeographyParent :SPP.  :SPP :bGeographyTerm "SPP".
+:SPP a :WISERGeography. :SPP a owl:NamedIndividual. <https://sws.geonames.org/4331987/>  :bGeographyParent :SPP.  :SPP :bGeographyTerm "SPP".
+:SPP a :WISERGeography. :SPP a owl:NamedIndividual. <https://sws.geonames.org/4736286/>  :bGeographyParent :SPP.  :SPP :bGeographyTerm "SPP".
+:SPP a :WISERGeography. :SPP a owl:NamedIndividual. <https://sws.geonames.org/4398678/>  :bGeographyParent :SPP.  :SPP :bGeographyTerm "SPP".
+:SPP a :WISERGeography. :SPP a owl:NamedIndividual. <https://sws.geonames.org/4862182/>  :bGeographyParent :SPP.  :SPP :bGeographyTerm "SPP".
+:TRE a :WISERGeography. :TRE a owl:NamedIndividual. <https://sws.geonames.org/4736286/>  :bGeographyParent :TRE.  :TRE :bGeographyTerm "TRE".
+:TRE a :WISERGeography. :TRE a owl:NamedIndividual. <https://sws.geonames.org/4736286/>  :bGeographyParent :TRE.  :TRE :bGeographyTerm "TRE".
+:NAC a :WISERGeography. :NAC a owl:NamedIndividual. <https://sws.geonames.org/6252001/>  :bGeographyParent :NAC.  :NAC :bGeographyTerm "NAC".
+:EU25 a :WISERGeography. :EU25 a owl:NamedIndividual.  :EU25 :bGeographyTerm "EU-25".
+:BRER_wo_DE_CH a :WISERGeography. :BRER_wo_DE_CH a owl:NamedIndividual.  :BRER_wo_DE_CH :bGeographyTerm "BRER_wo_DE_CH".
+:EU27 a :WISERGeography. :EU27 a owl:NamedIndividual.  :EU27 :bGeographyTerm "EU-27".
+:EU28 a :WISERGeography. :EU28 a owl:NamedIndividual.  :EU28 :bGeographyTerm "EU-28".
+<https://sws.geonames.org/6251999/> :bGeographyParent :NAC.  
+<https://sws.geonames.org/2629691/> :bGeographyParent :NAC.
+<https://sws.geonames.org/2635167/> :bGeographyParent :NAC. 
+<https://sws.geonames.org/2963597/> :bGeographyParent :NAC.  
+<https://sws.geonames.org/3144096/> :bGeographyParent :NAC.  
+<https://sws.geonames.org/2623032/> :bGeographyParent :NAC. 
+<https://sws.geonames.org/2661886/> :bGeographyParent :NAC.  
+<https://sws.geonames.org/660013/> :bGeographyParent :NAC.  
+<https://sws.geonames.org/3425505/> :bGeographyParent :NAC.  
+:EEU a :WISERGeography. :EEU a owl:NamedIndividual. <https://sws.geonames.org/6255148/> :bGeographyParent :EEU. <https://sws.geonames.org/12217848/> :bGeographyParent :EEU. 
+#EU25
+<https://sws.geonames.org/2802361/> :bGeographyParent :EU25.
+<https://sws.geonames.org/2623032/> :bGeographyParent :EU25.
+<https://sws.geonames.org/2921044/> :bGeographyParent :EU25.
+<https://sws.geonames.org/660013/> :bGeographyParent :EU25.
+<https://sws.geonames.org/3017382/> :bGeographyParent :EU25.
+<https://sws.geonames.org/390903/> :bGeographyParent :EU25.
+<https://sws.geonames.org/2963597/> :bGeographyParent :EU25.
+<https://sws.geonames.org/3175395/> :bGeographyParent :EU25.
+<https://sws.geonames.org/2960313/> :bGeographyParent :EU25.
+<https://sws.geonames.org/2750405/> :bGeographyParent :EU25.
+<https://sws.geonames.org/2782113/> :bGeographyParent :EU25.
+<https://sws.geonames.org/2264397/> :bGeographyParent :EU25.
+<https://sws.geonames.org/2510769/> :bGeographyParent :EU25.
+<https://sws.geonames.org/2635167/> :bGeographyParent :EU25.
+<https://sws.geonames.org/2661886/> :bGeographyParent :EU25.
+<https://sws.geonames.org/146669/> :bGeographyParent :EU25.
+<https://sws.geonames.org/453733/> :bGeographyParent :EU25.
+<https://sws.geonames.org/719819/> :bGeographyParent :EU25.
+<https://sws.geonames.org/458258/> :bGeographyParent :EU25.
+<https://sws.geonames.org/597427/> :bGeographyParent :EU25.
+<https://sws.geonames.org/2562770/> :bGeographyParent :EU25.
+<https://sws.geonames.org/798544/> :bGeographyParent :EU25.
+<https://sws.geonames.org/3190538/> :bGeographyParent :EU25.
+<https://sws.geonames.org/3057568/> :bGeographyParent :EU25.
+<https://sws.geonames.org/3077311/> :bGeographyParent :EU25.
+
+#EU27
+<https://sws.geonames.org/2802361/> :bGeographyParent :EU27.
+<https://sws.geonames.org/2623032/> :bGeographyParent :EU27.
+<https://sws.geonames.org/2921044/> :bGeographyParent :EU27.
+<https://sws.geonames.org/660013/> :bGeographyParent :EU27.
+<https://sws.geonames.org/3017382/> :bGeographyParent :EU27.
+<https://sws.geonames.org/390903/> :bGeographyParent :EU27.
+<https://sws.geonames.org/2963597/> :bGeographyParent :EU27.
+<https://sws.geonames.org/3175395/> :bGeographyParent :EU27.
+<https://sws.geonames.org/2960313/> :bGeographyParent :EU27.
+<https://sws.geonames.org/2750405/> :bGeographyParent :EU27.
+<https://sws.geonames.org/2782113/> :bGeographyParent :EU27.
+<https://sws.geonames.org/2264397/> :bGeographyParent :EU27.
+<https://sws.geonames.org/2510769/> :bGeographyParent :EU27.
+<https://sws.geonames.org/2635167/> :bGeographyParent :EU27.
+<https://sws.geonames.org/2661886/> :bGeographyParent :EU27.
+<https://sws.geonames.org/146669/> :bGeographyParent :EU27.
+<https://sws.geonames.org/453733/> :bGeographyParent :EU27.
+<https://sws.geonames.org/719819/> :bGeographyParent :EU27.
+<https://sws.geonames.org/458258/> :bGeographyParent :EU27.
+<https://sws.geonames.org/597427/> :bGeographyParent :EU27.
+<https://sws.geonames.org/2562770/> :bGeographyParent :EU27.
+<https://sws.geonames.org/798544/> :bGeographyParent :EU27.
+<https://sws.geonames.org/3190538/> :bGeographyParent :EU27.
+<https://sws.geonames.org/3057568/> :bGeographyParent :EU27.
+<https://sws.geonames.org/3077311/> :bGeographyParent :EU27.
+<https://sws.geonames.org/3144096/> :bGeographyParent :EU27.  # Norway
+
+
+#EU28
+<https://sws.geonames.org/2802361/> :bGeographyParent :EU28.
+<https://sws.geonames.org/2623032/> :bGeographyParent :EU28.
+<https://sws.geonames.org/2921044/> :bGeographyParent :EU28.
+<https://sws.geonames.org/660013/> :bGeographyParent :EU28.
+<https://sws.geonames.org/3017382/> :bGeographyParent :EU28.
+<https://sws.geonames.org/390903/> :bGeographyParent :EU28.
+<https://sws.geonames.org/2963597/> :bGeographyParent :EU28.
+<https://sws.geonames.org/3175395/> :bGeographyParent :EU28.
+<https://sws.geonames.org/2960313/> :bGeographyParent :EU28.
+<https://sws.geonames.org/2750405/> :bGeographyParent :EU28.
+<https://sws.geonames.org/2782113/> :bGeographyParent :EU28.
+<https://sws.geonames.org/2264397/> :bGeographyParent :EU28.
+<https://sws.geonames.org/2510769/> :bGeographyParent :EU28.
+<https://sws.geonames.org/2635167/> :bGeographyParent :EU28.
+<https://sws.geonames.org/2661886/> :bGeographyParent :EU28.
+<https://sws.geonames.org/146669/> :bGeographyParent :EU28.
+<https://sws.geonames.org/453733/> :bGeographyParent :EU28.
+<https://sws.geonames.org/719819/> :bGeographyParent :EU28.
+<https://sws.geonames.org/458258/> :bGeographyParent :EU28.
+<https://sws.geonames.org/597427/> :bGeographyParent :EU28.
+<https://sws.geonames.org/2562770/> :bGeographyParent :EU28.
+<https://sws.geonames.org/798544/> :bGeographyParent :EU28.
+<https://sws.geonames.org/3190538/> :bGeographyParent :EU28.
+<https://sws.geonames.org/3057568/> :bGeographyParent :EU28.
+<https://sws.geonames.org/3077311/> :bGeographyParent :EU28.
+<https://sws.geonames.org/3144096/> :bGeographyParent :EU28.  # Norway
+<https://sws.geonames.org/2658434/> :bGeographyParent :EU28.  # Switzerland
+
+#BRER_wo_DE_CH
+<https://sws.geonames.org/2802361/> :bGeographyParent :BRER_wo_DE_CH.
+<https://sws.geonames.org/2623032/> :bGeographyParent :BRER_wo_DE_CH.
+<https://sws.geonames.org/660013/> :bGeographyParent :BRER_wo_DE_CH.
+<https://sws.geonames.org/3017382/> :bGeographyParent :BRER_wo_DE_CH.
+<https://sws.geonames.org/390903/> :bGeographyParent :BRER_wo_DE_CH.
+<https://sws.geonames.org/2963597/> :bGeographyParent :BRER_wo_DE_CH.
+<https://sws.geonames.org/3175395/> :bGeographyParent :BRER_wo_DE_CH.
+<https://sws.geonames.org/2960313/> :bGeographyParent :BRER_wo_DE_CH.
+<https://sws.geonames.org/2750405/> :bGeographyParent :BRER_wo_DE_CH.
+<https://sws.geonames.org/2782113/> :bGeographyParent :BRER_wo_DE_CH.
+<https://sws.geonames.org/2264397/> :bGeographyParent :BRER_wo_DE_CH.
+<https://sws.geonames.org/2510769/> :bGeographyParent :BRER_wo_DE_CH.
+<https://sws.geonames.org/2635167/> :bGeographyParent :BRER_wo_DE_CH.
+<https://sws.geonames.org/2661886/> :bGeographyParent :BRER_wo_DE_CH.
+<https://sws.geonames.org/146669/> :bGeographyParent :BRER_wo_DE_CH.
+<https://sws.geonames.org/453733/> :bGeographyParent :BRER_wo_DE_CH.
+<https://sws.geonames.org/719819/> :bGeographyParent :BRER_wo_DE_CH.
+<https://sws.geonames.org/458258/> :bGeographyParent :BRER_wo_DE_CH.
+<https://sws.geonames.org/597427/> :bGeographyParent :BRER_wo_DE_CH.
+<https://sws.geonames.org/2562770/> :bGeographyParent :BRER_wo_DE_CH.
+<https://sws.geonames.org/798544/> :bGeographyParent :BRER_wo_DE_CH.
+<https://sws.geonames.org/3190538/> :bGeographyParent :BRER_wo_DE_CH.
+<https://sws.geonames.org/3057568/> :bGeographyParent :BRER_wo_DE_CH.
+<https://sws.geonames.org/3077311/> :bGeographyParent :BRER_wo_DE_CH.
+<https://sws.geonames.org/3144096/> :bGeographyParent :BRER_wo_DE_CH.
+
+<https://sws.geonames.org/7729884/> :bGeographyTerm "RER".
+<https://sws.geonames.org/6295630/> :bGeographyTerm "GLO".
+<https://sws.geonames.org/1814991/> :bGeographyTerm "APAC".
+<https://sws.geonames.org/7729890/> :bGeographyTerm "RNA".
+<https://sws.geonames.org/6290252/> :bGeographyTerm "CS".
+<https://sws.geonames.org/7729898/> :bGeographyTerm "OCE".
+<https://sws.geonames.org/7729884/> :bGeographyTerm "CENTREL".
+<https://sws.geonames.org/9408659/> :bGeographyTerm "UCTE".
+<https://sws.geonames.org/7730009/> :bGeographyTerm "RLA".
+<https://sws.geonames.org/6255147/> :bGeographyTerm "RAS".
+<https://sws.geonames.org/7729890/> :bGeographyTerm "ENTSO". #validate
+<https://sws.geonames.org/6255147/> :bGeographyTerm "CPA".
+<https://sws.geonames.org/7729883/> :bGeographyTerm "NORDEL".
+<https://sws.geonames.org/6269133/> :bGeographyTerm "RME".
+<https://sws.geonames.org/7729884/> :bGeographyTerm "WEU".
+<https://sws.geonames.org/2658434/> :bGeographyTerm "CH U System".
+<https://sws.geonames.org/6255146/> :bGeographyTerm "RAF".
+<https://sws.geonames.org/2658434/> :bGeographyTerm "CH System".
+<https://sws.geonames.org/7729890/> :bGeographyTerm "RNA" .
+<https://sws.geonames.org/1814991/> :bGeographyTerm "APAC" .
+<https://sws.geonames.org/7729890/> :bGeographyTerm "NAM" .
+<https://sws.geonames.org/7729897/> :bGeographyTerm "WAS" .
+<https://sws.geonames.org/7730009/> :bGeographyTerm "LTC" .
+<https://sws.geonames.org/6255146/> :bGeographyTerm "AFR" .
+<https://sws.geonames.org/7729885/> :bGeographyTerm "West-Africa" .
+<https://sws.geonames.org/6295630/> :bGeographyTerm "GLO" .
+<https://sws.geonames.org/6255148/> :bGeographyTerm "RER" .
+<https://sws.geonames.org/9408659/> :bGeographyTerm "WEU" .
+<https://sws.geonames.org/2658434/> :bGeographyTerm "CH" .
+<https://sws.geonames.org/686967/> :bGeographyTerm "RO" .
+<https://sws.geonames.org/298795/> :bGeographyTerm "TR" .
+<https://sws.geonames.org/1814991/> :bGeographyTerm "CN" .
+<https://sws.geonames.org/660013/> :bGeographyTerm "FI" .
+<https://sws.geonames.org/3469034/> :bGeographyTerm "BR" .
+<https://sws.geonames.org/2960313/> :bGeographyTerm "LU" .
+<https://sws.geonames.org/2328926/> :bGeographyTerm "NG" .
+<https://sws.geonames.org/6251999/> :bGeographyTerm "CA" .
+<https://sws.geonames.org/2921044/> :bGeographyTerm "DE" .
+<https://sws.geonames.org/3144096/> :bGeographyTerm "NO" .
+<https://sws.geonames.org/2802361/> :bGeographyTerm "BE" .
+<https://sws.geonames.org/732800/> :bGeographyTerm "BG" .
+<https://sws.geonames.org/3077311/> :bGeographyTerm "CZ" .
+<https://sws.geonames.org/1643084/> :bGeographyTerm "ID" .
+<https://sws.geonames.org/3057568/> :bGeographyTerm "SK" .
+<https://sws.geonames.org/6252001/> :bGeographyTerm "US" .
+<https://sws.geonames.org/719819/> :bGeographyTerm "HU" .
+<https://sws.geonames.org/1668284/> :bGeographyTerm "TW" .
+<https://sws.geonames.org/2661886/> :bGeographyTerm "SE" .
+<https://sws.geonames.org/2635167/> :bGeographyTerm "GB" .
+<https://sws.geonames.org/2510769/> :bGeographyTerm "ES" .
+<https://sws.geonames.org/3175395/> :bGeographyTerm "IT" .
+<https://sws.geonames.org/2750405/> :bGeographyTerm "NL" .
+<https://sws.geonames.org/2623032/> :bGeographyTerm "DK" .
+<https://sws.geonames.org/2186224/> :bGeographyTerm "NZ" .
+<https://sws.geonames.org/453733/> :bGeographyTerm "EE" .
+<https://sws.geonames.org/2782113/> :bGeographyTerm "AT" .
+<https://sws.geonames.org/3017382/> :bGeographyTerm "FR" .
+<https://sws.geonames.org/785842/> :bGeographyTerm "MK" .
+<https://sws.geonames.org/597427/> :bGeographyTerm "LT" .
+<https://sws.geonames.org/2077456/> :bGeographyTerm "AU" .
+<https://sws.geonames.org/2017370/> :bGeographyTerm "RU" .
+<https://sws.geonames.org/3355338/> :bGeographyTerm "NA" .
+<https://sws.geonames.org/2562770/> :bGeographyTerm "MT" .
+<https://sws.geonames.org/2963597/> :bGeographyTerm "IE" .
+<https://sws.geonames.org/953987/> :bGeographyTerm "ZA" .
+<https://sws.geonames.org/2264397/> :bGeographyTerm "PT" .
+<https://sws.geonames.org/3202326/> :bGeographyTerm "HR" .
+<https://sws.geonames.org/2542007/> :bGeographyTerm "MA" .
+<https://sws.geonames.org/3190538/> :bGeographyTerm "SI" .
+<https://sws.geonames.org/146669/> :bGeographyTerm "CY" .
+<https://sws.geonames.org/294640/> :bGeographyTerm "IL" .
+<https://sws.geonames.org/130758/> :bGeographyTerm "IR" .
+<https://sws.geonames.org/2233387/> :bGeographyTerm "CM" .
+<https://sws.geonames.org/2629691/> :bGeographyTerm "IS" .
+<https://sws.geonames.org/3996063/> :bGeographyTerm "MX" .
+<https://sws.geonames.org/1861060/> :bGeographyTerm "JP" .
+<https://sws.geonames.org/3277605/> :bGeographyTerm "BA" .
+<https://sws.geonames.org/1733045/> :bGeographyTerm "MY" .
+<https://sws.geonames.org/3932488/> :bGeographyTerm "PE" .
+<https://sws.geonames.org/390903/> :bGeographyTerm "GR" .
+<https://sws.geonames.org/1269750/> :bGeographyTerm "IN" .
+<https://sws.geonames.org/458258/> :bGeographyTerm "LV" .
+<https://sws.geonames.org/3895114/> :bGeographyTerm "CL" .
+<https://sws.geonames.org/690791/> :bGeographyTerm "UA" .
+<https://sws.geonames.org/798544/> :bGeographyTerm "PL" .
+<https://sws.geonames.org/102358/> :bGeographyTerm "SA" .
+<https://sws.geonames.org/1522867/> :bGeographyTerm "KZ" .
+<https://sws.geonames.org/1605651/> :bGeographyTerm "TH" .
+<https://sws.geonames.org/3686110/> :bGeographyTerm "CO" .
+<https://sws.geonames.org/149590/> :bGeographyTerm "TZ" .
+<https://sws.geonames.org/2088628/> :bGeographyTerm "PG" .
+<https://sws.geonames.org/1835841/> :bGeographyTerm "KR" .
+<https://sws.geonames.org/2589581/> :bGeographyTerm "DZ" .
+<https://sws.geonames.org/2464461/> :bGeographyTerm "TN" .
+<https://sws.geonames.org/99237/> :bGeographyTerm "IQ" .
+<https://sws.geonames.org/1694008/> :bGeographyTerm "PH" .
+<https://sws.geonames.org/2440476/> :bGeographyTerm "NE" .
+<https://sws.geonames.org/6290252/> :bGeographyTerm "RS" .
+<https://sws.geonames.org/927384/> :bGeographyTerm "MW" .
+<https://sws.geonames.org/587116/> :bGeographyTerm "AZ" .
+<https://sws.geonames.org/3351879/> :bGeographyTerm "AO" .
+<https://sws.geonames.org/3865483/> :bGeographyTerm "AR" .
+<https://sws.geonames.org/2782113/> :bGeographyTerm "AT" .
+<https://sws.geonames.org/1210997/> :bGeographyTerm "BD" .
+<https://sws.geonames.org/933860/> :bGeographyTerm "BW" .
+<https://sws.geonames.org/203312/> :bGeographyTerm "CD" .
+<https://sws.geonames.org/2287781/> :bGeographyTerm "CI" .
+<https://sws.geonames.org/3202326/> :bGeographyTerm "HR" .
+<https://sws.geonames.org/2623032/> :bGeographyTerm "DK" .
+<https://sws.geonames.org/3508796/> :bGeographyTerm "DO" .
+<https://sws.geonames.org/3658394/> :bGeographyTerm "EC" .
+<https://sws.geonames.org/357994/> :bGeographyTerm "EG" .
+<https://sws.geonames.org/453733/> :bGeographyTerm "EE" .
+<https://sws.geonames.org/3017382/> :bGeographyTerm "FR" .
+<https://sws.geonames.org/3595528/> :bGeographyTerm "GT" .
+<https://sws.geonames.org/719819/> :bGeographyTerm "HU" .
+<https://sws.geonames.org/1643084/> :bGeographyTerm "ID" .
+<https://sws.geonames.org/294640/> :bGeographyTerm "IL" .
+<https://sws.geonames.org/3175395/> :bGeographyTerm "IT" .
+<https://sws.geonames.org/1835841/> :bGeographyTerm "KR" .
+<https://sws.geonames.org/285570/> :bGeographyTerm "KW" .
+<https://sws.geonames.org/597427/> :bGeographyTerm "LT" .
+<https://sws.geonames.org/1733045/> :bGeographyTerm "MY" .
+<https://sws.geonames.org/2542007/> :bGeographyTerm "MA" .
+<https://sws.geonames.org/1036973/> :bGeographyTerm "MZ" .
+<https://sws.geonames.org/1327865/> :bGeographyTerm "MM" .
+<https://sws.geonames.org/2750405/> :bGeographyTerm "NL" .
+<https://sws.geonames.org/2186224/> :bGeographyTerm "NZ" .
+<https://sws.geonames.org/286963/> :bGeographyTerm "OM" .
+<https://sws.geonames.org/1168579/> :bGeographyTerm "PK" .
+<https://sws.geonames.org/3703430/> :bGeographyTerm "PA" .
+<https://sws.geonames.org/2264397/> :bGeographyTerm "PT" .
+<https://sws.geonames.org/4566966/> :bGeographyTerm "PR" .
+<https://sws.geonames.org/290557/> :bGeographyTerm "QA" .
+<https://sws.geonames.org/718075/> :bGeographyTerm "MK" .
+<https://sws.geonames.org/2017370/> :bGeographyTerm "RU" .
+<https://sws.geonames.org/2245662/> :bGeographyTerm "SN" .
+<https://sws.geonames.org/1880252/> :bGeographyTerm "SG" .
+<https://sws.geonames.org/3057568/> :bGeographyTerm "SK" .
+<https://sws.geonames.org/2510769/> :bGeographyTerm "ES" .
+<https://sws.geonames.org/2661886/> :bGeographyTerm "SE" .
+<https://sws.geonames.org/1668284/> :bGeographyTerm "TW" .
+<https://sws.geonames.org/298795/> :bGeographyTerm "TR" .
+<https://sws.geonames.org/226074/> :bGeographyTerm "UG" .
+<https://sws.geonames.org/290557/> :bGeographyTerm "AE" .
+<https://sws.geonames.org/3439705/> :bGeographyTerm "UY" .
+<https://sws.geonames.org/1562822/> :bGeographyTerm "VN" .
+<https://sws.geonames.org/895949/> :bGeographyTerm "ZM" .
+<https://sws.geonames.org/878675/> :bGeographyTerm "ZW" .
